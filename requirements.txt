@@ -1,4 +1,3 @@
-internetarchive
 sphinx
 sphinx-autobuild
 sphinx-material

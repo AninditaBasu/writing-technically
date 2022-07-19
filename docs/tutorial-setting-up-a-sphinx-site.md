@@ -1,0 +1,3 @@
+# Setting up a Sphinx site
+
+... still writing it in my mind ...
