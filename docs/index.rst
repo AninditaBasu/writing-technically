@@ -1,12 +1,14 @@
 Home
 =====
 
-Observations, opinions, and HowTos drawn from the daily life of a technical writer (which is me.)
+Observations and opinions of a  technical writer
+
+.. image:: _static/shiuli.jpg
+  :alt: Boat-shaped blue glass bowl filled with shiuli flowers
 
 .. toctree::
-    :caption: Writing, technically
+    :caption: On this blog
     :maxdepth: 1
     :hidden:
 
     index-tutorials.rst
-    index-thoughts.rst

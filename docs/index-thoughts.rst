@@ -6,7 +6,7 @@ In the nature of My Opinions and Observations
 .. toctree::
     :caption: Thoughts
     :maxdepth: 1
-    :hidden:
+    :hidden: true
 
-    thoughts-dita-without-dita
+    thoughts-dita-without-dita.md
     
