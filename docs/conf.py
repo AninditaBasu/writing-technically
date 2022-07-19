@@ -26,10 +26,19 @@ author = 'Anindita Basu'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'recommonmark',
+#    'recommonmark',
+    'myst_parser',
     'sphinx_copybutton',
     'sphinx-favicon',
 ]
+
+#myst_parser extensions
+
+myst_enable_extensions = [
+    "html_admonition",
+]
+
+myst_heading_anchors = 3
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -40,10 +49,10 @@ templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 #support markdown .md files
-from recommonmark.parser import CommonMarkParser
-source_parsers = {
-    '.md': CommonMarkParser,
-}
+#from recommonmark.parser import CommonMarkParser
+#source_parsers = {
+#    '.md': CommonMarkParser,
+#}
 
 # -- Options for HTML output -------------------------------------------------
 

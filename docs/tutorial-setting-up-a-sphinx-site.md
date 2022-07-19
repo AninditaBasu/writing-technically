@@ -4,14 +4,31 @@
 
 Sphinx is a static site generator that uses Python to convert `RST` and `MD` files to `HTML`.
 
+To set up a Sphinx site, these are the steps:
+
+1. [Build a site locally](#build-a-site-locally)
+2. [Personalise the site](#personalise-the-site)
+3. [Deploy the site for the public](#deploy-the-site-for-the-public)
+
+The entire process takes about 50 minutes or longer.
+
 ![Pink flowers in a blue boat-shaped glass bowl atop a chessboard table](_static/chess_flowers.jpg)
 
 ## Build a site locally
 
+<div class="admonition note" name="html-admonition" style="padding: 10px">
+<p class="title">Estimated time: 15 minutes</p>
+<ul><li>Steps 1 and 2, ~10 minutes</li>
+    <li>Steps 3 and 4, ~1 minute</li>
+    <li>Step 5, ~2 minutes</li>
+    <li>Step 6, ~1 minute</li>
+    <li>Step 7, ~1 minute</li></ul>
+</div>
+
 1. Install Python.
 2. Install Sphinx.
 3. In a new directory, create a file called README.rst.
-4. Open a Python terminal and go to this directory you just.
+4. Open a Python terminal and go to this directory you just created.
 5. Run the `sphinx-quickstart docs` command and, at the prompts, specify the following inputs:
     1. Separate source and build directories (y/n) [n]: Type `n` and press Enter.
     2. Project name: Type the name of your site and press Enter.
@@ -34,14 +51,28 @@ Because the site is about you, not about Sphinx.
 
 The default theme of Sphinx docs is `alabaster`, which is a bit insipid. Find a theme that's more you.
 
+<div class="admonition note" name="html-admonition" style="padding: 10px">
+<p class="title">Estimated time: ~12 minutes or longer</p>
+<ul><li>Step 1, ~1 minute</li>
+    <li>Step 2, ~1 minute</li>
+    <li>Step 3, 10 minutes or longer</li></ul>
+</div>
+
 1. Install the theme by running a `pip install` command.
 2. Edit the `html_theme` parameter in `conf.py`. The default Sphinx value is `alabaster`. Read the documentation of the theme of your choice to see what this value should be changed to.
+3. In the same `conf.py` file, specify the options for HTML output. The theme documentation should have this information.
 
 ### Write in Markdown (instead of ReStructured Text)
 
 Because some people (like me) find Markdown much more easy to handle than the recalcitrant child that ReStructured Text can often become.
 
 Sphinx knows how to change `RST` file to `HTML`, and will do so without prompting. It also knows how to change `MD` files to `HTML`, but needs to be told specially (through the `conf.py` file) to do so.
+
+<div class="admonition note" name="html-admonition" style="padding: 10px">
+<p class="title">Estimated time: ~6 minutes</p>
+<ul><li>Step 1, ~1 minute</li>
+    <li>Step 2, ~5 minutes</li></ul>
+</div>
 
 1. Install `recommonmark` by running a `pip install` command.
 2. Edit the `conf.py` file at two places, as follows.
@@ -75,11 +106,31 @@ You have two ways of doing this.
 
 **Option 1: Upload the built HTML files**
 
+In this method, you build the files locally, and upload only the output to the cloud. The source files are, thus, not connected to the output files.
+
+<div class="admonition note" name="html-admonition" style="padding: 10px">
+<p class="title">Estimated time: ~4 minutes</p>
+<ul><li>Step 1, ~1 minute</li>
+    <li>Step 2, ~2 minutes</li>
+    <li>Step 3, ~1 minute</li></ul>
+</div>
+
 1. Create a GitHub repository.
 2. Push the contents of the `docs/_build` directory to the `main` branch of your GitHub repository.
 3. Enable GitHub Pages.
 
 **Option 2: Ask GitHub to build the HTML files**
+
+In this method, you upload the source files to the cloud, and let GitHub generate the output. Therefore, the source files are always the same as the output files.
+
+<div class="admonition note" name="html-admonition" style="padding: 10px">
+<p class="title">Estimated time: ~8 minutes</p>
+<ul><li>Step 1, ~1 minute</li>
+    <li>Step 2, ~2 minutes</li>
+    <li>Step 3, ~2 minutes</li>
+    <li>Step 4, ~2 minutes</li>
+    <li>Step 5, ~1 minute</li></ul>
+</div>
 
 1. Create a GitHub repository.
 2. Push the contents of the `docs` directory (minus the `docs/_build`) directory to the `main` branch of your GitHub repository.
@@ -115,6 +166,15 @@ You have two ways of doing this.
 ### Deploy to Read The Docs
 
 You have only one option, which is that of asking Read The Docs to build the site for you. To do so, you first host your source on a publicly available Git repository (or some other version control system), and then use a `YAML` file as the build script.
+
+<div class="admonition note" name="html-admonition" style="padding: 10px">
+<p class="title">Estimated time: ~10 minutes</p>
+<ul><li>Step 1, ~1 minute</li>
+    <li>Step 2, ~2 minutes</li>
+    <li>Step 3, ~2 minutes</li>
+    <li>Step 4, ~2 minutes</li>
+    <li>Step 5, ~3 minutes</li></ul>
+</div>
 
 1. Create a GitHub, GitLab, or BitBucket repository and push the contents of the `docs` directory (minus the `docs/_build`) directory to the `main` branch of your repository.
 2. Add a `requirements.txt` file, at the root of your project, that lists all the Python modules you installed (through the `pip` command) for your site.
