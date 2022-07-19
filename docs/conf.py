@@ -28,6 +28,7 @@ author = 'Anindita Basu'
 extensions = [
     'recommonmark',
     'sphinx_copybutton',
+    'sphinx-favicon',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
