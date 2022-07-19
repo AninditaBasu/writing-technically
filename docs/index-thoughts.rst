@@ -1,12 +1,21 @@
 Thoughts
 ==========
 
-In the nature of My Opinions and Observations
+Opinions, observations, and WhatIfs
+
+.. raw:: html
+
+   <hr/>
+
+A sharing of notes that this elf hopes will spark ruminations, discussions, and construction-destructions
+
+.. image:: _static/who_am_i.jpeg
+  :alt: A worksheet with some Farsi text, a newspaper folded at the crossword section, a pencil, an eraser, a Sanskrit-English dictionary, a book on ancient tribes in India, and a teacup and saucer with a tiny spoon
 
 .. toctree::
     :caption: Thoughts
     :maxdepth: 1
-    :hidden: true
+    :hidden:
 
     thoughts-dita-without-dita.md
     

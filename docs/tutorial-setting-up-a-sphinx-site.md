@@ -1,8 +1,12 @@
 # How to set up a Sphinx site
 
+<hr/>
+
 Sphinx is a static site generator that uses Python to convert `RST` and `MD` files to `HTML`.
 
-## Build a site
+![Pink flowers in a blue boat-shaped glass bowl atop a chessboard table](_static/chess_flowers.jpg)
+
+## Build a site locally
 
 1. Install Python.
 2. Install Sphinx.
@@ -19,6 +23,8 @@ Sphinx is a static site generator that uses Python to convert `RST` and `MD` fil
 7. In your system file explorer, go to the `_build` > `html` directory and look for a file called `index.html`. This is the home page of your site. Open it.
 
 The `_build` directory contains all the files that are needed for a website. Deploy the contents of this directory to a hosting provider of your choice.
+
+<hr/>
 
 ## Personalise the site
 
@@ -57,21 +63,23 @@ Sphinx knows how to change `RST` file to `HTML`, and will do so without promptin
        }
        ```
  
-## Deploy your site for the public
+<hr/>
+
+## Deploy the site for the public
 
 So that everyone in the world can see your site, push your files to your favourite deployment-solution provider.
 
-### Deploying to GitHub
+### Deploy to GitHub
 
-You have two options.
+You have two ways of doing this.
 
-### Option 1: Upload the built HTML files
+**Option 1: Upload the built HTML files**
 
 1. Create a GitHub repository.
 2. Push the contents of the `docs/_build` directory to the `main` branch of your GitHub repository.
 3. Enable GitHub Pages.
 
-### Option 2: Ask GitHub to build the HTML files
+**Option 2: Ask GitHub to build the HTML files**
 
 1. Create a GitHub repository.
 2. Push the contents of the `docs` directory (minus the `docs/_build`) directory to the `main` branch of your GitHub repository.
@@ -104,7 +112,7 @@ You have two options.
     This script uses a GitHub Action to build the files.
 5. Enable GitHub pages and wait for the build to complete, after which your site is available at _your-name/github-repo-name/index.html_.
 
-### Deploying to Read The Docs
+### Deploy to Read The Docs
 
 You have only one option, which is that of asking Read The Docs to build the site for you. To do so, you first host your source on a publicly available Git repository (or some other version control system), and then use a `YAML` file as the build script.
 
