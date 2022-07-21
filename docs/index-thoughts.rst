@@ -1,16 +1,12 @@
 Thoughts
 ==========
 
-Opinions, observations, and WhatIfs
-
 .. raw:: html
 
    <hr/>
 
-A sharing of notes that this elf hopes will spark ruminations, discussions, and construction-destructions.
-
 .. toctree::
-    :caption: Thoughts
+    :caption: A sharing of notes that this elf hopes will spark ruminations, discussions, and construction-destructions.
     :maxdepth: 1
 
     thoughts-dita-without-dita.md

@@ -1,14 +1,15 @@
 # How to set up a Sphinx site
 
 <hr/>
+<span style="font-weight:bold;font-size:75%;color:orange">19 July 2022</span>
 
 Sphinx is a static site generator that uses Python to convert `RST` and `MD` files to `HTML`.
 
 To set up a Sphinx site, these are the steps:
 
-1. [Build a site locally](#build-a-site-locally)
-2. [Personalise the site](#personalise-the-site)
-3. [Deploy the site for the public](#deploy-the-site-for-the-public)
+1. [Build a site locally](#build-a-site-locally).
+2. [Personalise the site](#personalise-the-site).
+3. [Deploy the site for the public](#deploy-the-site-for-the-public).
 
 The entire process takes about 50 minutes or longer.
 

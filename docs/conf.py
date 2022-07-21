@@ -16,7 +16,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Writing, Technically'
+project = 'Writing Technically'
 copyright = '2022, Anindita Basu'
 author = 'Anindita Basu'
 
@@ -68,11 +68,22 @@ html_theme_options = {
     'repo_name': 'writing-technically',
     'html_minify': True,
     'css_minify': True,
-    'nav_title': 'Writing, Technically',
+    'nav_title': 'Writing Technically',
     'globaltoc_depth': 2,
     'globaltoc_collapse': False,
-    'color_primary': 'grey',
-    'color_accent': 'orange'
+    'color_primary': 'green',
+    'color_accent': 'orange',
+    'nav_links': [
+#        {'href': 'index', 'internal': True, 'title': 'Home'},
+        {'href': 'index-tutorials', 'internal': True, 'title': 'Tutorials'},
+        {'href': 'index-thoughts', 'internal': True, 'title': 'Thoughts'},
+        {'href': 'about', 'internal': True, 'title': 'About'},
+    ],
+    'heroes': {
+        'index': 'Words for all; all for words',
+        'index-tutorials': "Notes to Ourselves",
+        'index-thoughts': 'Opinions, Observations, and WhatIfs',
+    },
 }
 html_sidebars = {
     "**": ["logo-text.html", "globaltoc.html", "localtoc.html", "searchbox.html"]
@@ -82,7 +93,7 @@ html_sidebars = {
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
-html_title = 'Blog home'
+html_title = 'Home'
 html_last_updated_fmt = '%d %B %Y'
 html_logo = '_static/s_1_600.jpg'
 

@@ -1,17 +1,13 @@
 Tutorials
 ==========
 
-Notes to Ourselves
-
 .. raw:: html
 
    <hr/>
 
-A collection of HowTos that this elf is writing for self and other elves.
-
 .. toctree::
-    :caption: Tutorials
-    :maxdepth: 2
+    :caption: A collection of HowTos that this elf is writing for self and other elves.
+    :maxdepth: 1
 
     tutorial-setting-up-a-sphinx-site.md
 
