@@ -28,6 +28,7 @@ author = 'Anindita Basu'
 extensions = [
 #    'recommonmark',
     'myst_parser',
+    'sphinx.ext.githubpages',
     'sphinx_copybutton',
     'sphinx-favicon',
 ]

@@ -1,6 +1,7 @@
 Jinja2<3.1
 sphinx
 sphinx-autobuild
+sphinx.ext.githubpages
 sphinx-material
 myst_parser
 sphinx-copybutton
