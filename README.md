@@ -1,3 +1,3 @@
-# writing-technically
+# Sphinx demo site
 
-Blog
+Testing

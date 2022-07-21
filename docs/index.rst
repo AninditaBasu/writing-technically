@@ -1,4 +1,4 @@
-Writing Technically
+Sphinx demo site
 =====================
 
 .. raw:: html
@@ -9,8 +9,7 @@ Writing Technically
     :caption: On this blog
     :maxdepth: 2
 
-    index-tutorials.rst
-    index-thoughts.rst
+    index-two.rst
 
 .. image:: _static/shiuli.jpg
   :alt: Boat-shaped blue glass bowl filled with shiuli flowers
