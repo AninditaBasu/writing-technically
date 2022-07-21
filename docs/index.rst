@@ -1,10 +1,6 @@
 Sphinx demo site
 =====================
 
-.. raw:: html
-
-   <hr/>
-
 .. toctree::
     :caption: On this blog
     :maxdepth: 2

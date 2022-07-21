@@ -1,3 +1,2 @@
-# Sphinx demo site
+# README
 
-Testing
