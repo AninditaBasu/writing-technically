@@ -1,5 +1,8 @@
 name: Sphinx build
-on: push
+on:
+  push:
+    branches:
+      - sphinx
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -20,6 +23,6 @@ jobs:
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@v4
       with:
-        folder: build # The folder the action should deploy.
+        folder: _build # The folder the action should deploy.
         token: ${{ secrets.GITHUB_TOKEN }}
         target-folder: docs/_build/html
