@@ -1,0 +1,5 @@
+# ignore all PIP files
+Pipfile*
+
+# ignore all files in these directory anywhere
+.idea/

@@ -26,10 +26,7 @@ author = 'Anindita Basu'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-#    'recommonmark',
     'myst_parser',
-    'sphinx_copybutton',
-    'sphinx-favicon',
 ]
 
 #myst_parser extensions
@@ -48,59 +45,16 @@ templates_path = ['_templates']
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
-#support markdown .md files
-#from recommonmark.parser import CommonMarkParser
-#source_parsers = {
-#    '.md': CommonMarkParser,
-#}
-
 # -- Options for HTML output -------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-# See https://bashtage.github.io/sphinx-material/index.html
-html_theme = 'sphinx_material'
-# Material theme options (see theme.conf at https://github.com/bashtage/sphinx-material for more information)
-html_theme_options = {
-    'base_url': 'https://writing-technically.readthedocs.io/',
-    'repo_url': 'https://github.com/AninditaBasu/writing-technically',
-    'repo_name': 'writing-technically',
-    'html_minify': True,
-    'css_minify': True,
-    'nav_title': 'Writing Technically',
-    'globaltoc_depth': 2,
-    'globaltoc_collapse': False,
-    'color_primary': 'green',
-    'color_accent': 'orange',
-    'nav_links': [
-#        {'href': 'index', 'internal': True, 'title': 'Home'},
-        {'href': 'index-tutorials', 'internal': True, 'title': 'Tutorials'},
-        {'href': 'index-thoughts', 'internal': True, 'title': 'Thoughts'},
-        {'href': 'about', 'internal': True, 'title': 'About'},
-    ],
-    'heroes': {
-        'index': 'Words for all; all for words',
-        'index-tutorials': "Notes to Ourselves",
-        'index-thoughts': 'Opinions, Observations, and WhatIfs',
-    },
-}
-html_sidebars = {
-    "**": ["logo-text.html", "globaltoc.html", "localtoc.html", "searchbox.html"]
-}
+html_theme = 'haiku'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
-html_title = 'Home'
+html_title = 'Demo Sphinx site'
 html_last_updated_fmt = '%d %B %Y'
-html_logo = '_static/s_1_600.jpg'
-
-favicons = [
-    {
-        "rel": "icon",
-        "static-file": "s_1_600.jpg",
-        "type": "image/jpg",
-    },
-]
