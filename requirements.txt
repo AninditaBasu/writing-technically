@@ -1,6 +1,5 @@
 sphinx
 sphinx-autobuild
-sphinx-material
 myst_parser
 sphinx-copybutton
 sphinx-favicon

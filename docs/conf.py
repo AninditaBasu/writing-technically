@@ -17,8 +17,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Writing Technically'
-copyright = '2022, Anindita Basu'
-author = 'Anindita Basu'
+copyright = '2022'
+author = 'Anindita Basu, using <a href="http://www.sphinx-doc.org/">Sphinx</a> with the <a href="https://sphinx-book-theme.readthedocs.io/en/stable/index.html">Book theme</a> of the <a href="https://ebp.jupyterbook.org/">Executable Book project</a>.'
 
 # -- General configuration ---------------------------------------------------
 
@@ -26,19 +26,10 @@ author = 'Anindita Basu'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-#    'recommonmark',
     'myst_parser',
     'sphinx_copybutton',
     'sphinx-favicon',
 ]
-
-#myst_parser extensions
-
-myst_enable_extensions = [
-    "html_admonition",
-]
-
-myst_heading_anchors = 3
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -48,45 +39,27 @@ templates_path = ['_templates']
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
-#support markdown .md files
-#from recommonmark.parser import CommonMarkParser
-#source_parsers = {
-#    '.md': CommonMarkParser,
-#}
-
 # -- Options for HTML output -------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-# See https://bashtage.github.io/sphinx-material/index.html
-html_theme = 'sphinx_material'
-# Material theme options (see theme.conf at https://github.com/bashtage/sphinx-material for more information)
+# See https://sphinx-book-theme.readthedocs.io/en/stable/tutorials/get-started.html
+html_theme = "sphinx_book_theme"
 html_theme_options = {
-    'base_url': 'https://writing-technically.readthedocs.io/',
-    'repo_url': 'https://github.com/AninditaBasu/writing-technically',
-    'repo_name': 'writing-technically',
-    'html_minify': True,
-    'css_minify': True,
-    'nav_title': 'Writing Technically',
-    'globaltoc_depth': 2,
-    'globaltoc_collapse': False,
-    'color_primary': 'green',
-    'color_accent': 'orange',
-    'nav_links': [
-#        {'href': 'index', 'internal': True, 'title': 'Home'},
-        {'href': 'index-tutorials', 'internal': True, 'title': 'Tutorials'},
-        {'href': 'index-thoughts', 'internal': True, 'title': 'Thoughts'},
-        {'href': 'about', 'internal': True, 'title': 'About'},
-    ],
-    'heroes': {
-        'index': 'Words for all; all for words',
-        'index-tutorials': "Notes to Ourselves",
-        'index-thoughts': 'Opinions, Observations, and WhatIfs',
-    },
+    "repository_url": "https://github.com/AninditaBasu/writing-technically",
+    "use_repository_button": True,
+    "use_issues_button": True,
+    "use_edit_page_button": True,
+    "logo_only": True,#To remove the site title below the logo
+    "home_page_in_toc": True,
+    "show_navbar_depth": 2,
+    "extra_navbar": "<a href='about.html'>About me</a>",
+    "toc_title": "On this page",
+    "show_toc_level": 3,
 }
 html_sidebars = {
-    "**": ["logo-text.html", "globaltoc.html", "localtoc.html", "searchbox.html"]
+    "**": ["sidebar-logo.html", "search-field.html", "sbt-sidebar-nav.html"]
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -94,7 +67,6 @@ html_sidebars = {
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 html_title = 'Home'
-html_last_updated_fmt = '%d %B %Y'
 html_logo = '_static/s_1_600.jpg'
 
 favicons = [
