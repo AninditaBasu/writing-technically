@@ -23,7 +23,7 @@ The entire process takes about 50 minutes or longer.
 ### Prerequisites
 
 - Python 3.0 or later. To see if you have Python installed somewhere on your computer, open the command prompt, type `python`, and press Enter.
-- Sphinx. To see if your computer has Sphinx, at the command prompt, type `sphinx-build --version`, and press Enter.
+- Sphinx 5.0 or later. To see if your computer has Sphinx, at the command prompt, type `sphinx-build --version`, and press Enter.
 
 ### Steps
 
@@ -140,7 +140,10 @@ Make your changes locally, test them, and then push them to your repo.
 
 1. Open the `index.rst` file. This file is the home page of your site. Edit it to your heart's content.
 2. For every page that you want on your site, add an `RST` file to the `docs/source` directory. Images go into the `docs/source/_static` directory.
-3. Test your changes while you work by opening a Python terminal, going to `<your-Sphinx-directory>/docs` directory, and running the `make html` command. Then, look at the output in the `docs/build` directory.
+3. Test your changes while you work:
+    1. Open a Python terminal and go to the `<your-Sphinx-directory>/docs` directory
+    2. Run the `make html` command.
+   Then, look at the output in the `docs/build` directory.
 
 ### Change the theme
 
