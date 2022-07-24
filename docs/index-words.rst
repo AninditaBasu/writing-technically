@@ -3,6 +3,8 @@
    :title: The technical writing lexicon
    :twitter\:description: Etymology of words and phrases used in technical writing
    :twitter\:title: The technical writing lexicon
+   :twitter\:image: _static/s_1_600.jpg
+   :twitter\:card: summary
 
 Words
 =======

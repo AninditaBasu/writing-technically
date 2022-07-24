@@ -3,6 +3,8 @@
    :title: Thoughts on technical writing
    :twitter\:description: A sharing of notes that will (hopefully) spark ruminations, discussions, and construction-destructions in technical writing
    :twitter\:title: Thoughts on technical writing
+   :twitter\:image: _static/s_1_600.jpg
+   :twitter\:card: summary
 
 Thoughts
 ==========

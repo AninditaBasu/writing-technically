@@ -1,10 +1,12 @@
 ---
 myst:
   html_meta:
-    description: The definition and origin of the word Write, and some notes and examples
-    title: Etymology of Write
-    twitter\:description: The definition and origin of the word Write, and some notes and examples
-    twitter\:title: Etymology of Write
+    "description": "The definition and origin of the word Write, and some notes and examples"
+    "title": "Etymology of Write"
+    "twitter:description": "The definition and origin of the word Write, and some notes and examples"
+    "twitter:title": "Etymology of Write"
+    "twitter:image": "_static/s_1_600.jpg"
+    "twitter:card": "summary"
 ---
 
 # Write

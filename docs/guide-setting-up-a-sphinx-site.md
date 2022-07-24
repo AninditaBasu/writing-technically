@@ -1,10 +1,12 @@
 ---
 myst:
   html_meta:
-    description: Instructions for creating a Sphinx site and deploying it to GitHub, GitLab, and Read The Docs
-    title: How to create and deploy a Sphinx site
-    twitter\:description: Instructions for creating a Sphinx site and deploying it to GitHub, GitLab, and Read The Docs
-    twitter\:title: How to create and deploy a Sphinx site
+    "description": "Instructions for creating a Sphinx site and deploying it to GitHub, GitLab, and Read The Docs"
+    "title": "How to create and deploy a Sphinx site"
+    "twitter:description": "Instructions for creating a Sphinx site and deploying it to GitHub, GitLab, and Read The Docs"
+    "twitter:title": "How to create and deploy a Sphinx site"
+    "twitter:image": "_static/s_1_600.jpg"
+    "twitter:card": "summary"
 ---
 
 # How to set up a Sphinx site

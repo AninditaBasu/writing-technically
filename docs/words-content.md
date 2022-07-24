@@ -1,10 +1,12 @@
 ---
 myst:
   html_meta:
-    description: The definition and origin of the word Content, and some notes and examples
-    title: Etymology of Content
-    twitter\:description: The definition and origin of the word Content, and some notes and examples
-    twitter\:title: Etymology of Content
+    "description": "The definition and origin of the word Content, and some notes and examples"
+    "title": "Etymology of Content"
+    "twitter:description": "The definition and origin of the word Content, and some notes and examples"
+    "twitter:title": "Etymology of Content"
+    "twitter:image": "_static/s_1_600.jpg"
+    "twitter:card": "summary"
 ---
 
 # Content

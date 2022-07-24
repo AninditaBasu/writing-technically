@@ -3,6 +3,8 @@
    :title: Writing Technically, a site for documentarians
    :twitter\:description: Guides and blog posts for a docs-as-code tooling, and etymology of words used in technical writing
    :twitter\:title: Writing Technically, a site for documentarians
+   :twitter\:image: _static/s_1_600.jpg
+   :twitter\:card: summary
 
 Writing Technically
 =====================

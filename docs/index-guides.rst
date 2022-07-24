@@ -3,6 +3,8 @@
    :title: Guides for technical writing
    :twitter\:description: A crockful of recipes for self and other elves, so that conjuring documentation is easier
    :twitter\:title: Guides for technical writing
+   :twitter\:image: _static/s_1_600.jpg
+   :twitter\:card: summary
 
 Guides
 =======
