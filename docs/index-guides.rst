@@ -11,11 +11,19 @@ Guides
 
 A crock of recipes for self and other elves.
 
+.. raw:: html
+
+   <hr/>
+
 .. epigraph::
 
    I must go seek some dewdrops here,
 
    And hang a pearl in every cowslip's ear.
+
+.. raw:: html
+
+   <hr/>
 
 .. toctree::
     :maxdepth: 1

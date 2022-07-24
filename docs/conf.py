@@ -29,7 +29,6 @@ extensions = [
     'myst_parser',
     'sphinx_copybutton',
     'sphinx-favicon',
-    'sphinx-favicon',
 ]
 
 # Add any paths that contain templates here, relative to this directory.

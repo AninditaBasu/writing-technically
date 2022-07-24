@@ -9,7 +9,11 @@ Thoughts
 
    <hr/>
 
-A sharing of notes that this elf hopes will spark ruminations, discussions, and construction-destructions.
+A sharing of notes that will (hopefully) spark ruminations, discussions, and construction-destructions.
+
+.. raw:: html
+
+   <hr/>
 
 .. epigraph::
 
@@ -20,6 +24,10 @@ A sharing of notes that this elf hopes will spark ruminations, discussions, and 
    Sometimes a thousand twangling instruments
 
    Will hum about mine ears.
+
+.. raw:: html
+
+   <hr/>
 
 .. toctree::
     :maxdepth: 1

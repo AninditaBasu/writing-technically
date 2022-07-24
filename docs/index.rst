@@ -16,6 +16,10 @@ Writing Technically
 ..
   wordcloud generated at https://www.wordclouds.com/
 
+.. raw:: html
+
+   <hr/>
+
 .. epigraph::
 
    Oh, lift me as a wave, a leaf, a cloud!
@@ -41,11 +45,13 @@ Writing Technically
 .. raw:: html
 
    <hr/>
+
 .. toctree::
     :maxdepth: 2
 
     index-guides.rst
     index-thoughts.rst
+    index-words.rst
 
 .. raw:: html
 
