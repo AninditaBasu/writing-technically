@@ -27,8 +27,13 @@ author = 'Anindita Basu, using <a href="http://www.sphinx-doc.org/">Sphinx</a> w
 # ones.
 extensions = [
     'myst_parser',
+    'sphinx_tabs.tabs',
     'sphinx_copybutton',
     'sphinx-favicon',
+]
+
+myst_enable_extensions = [
+    "strikethrough",
 ]
 
 # Add any paths that contain templates here, relative to this directory.

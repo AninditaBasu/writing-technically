@@ -1,6 +1,8 @@
 .. meta::
-   :description: The etymology of some words used daily in technical writing
-   :keywords: etymology
+   :description: Etymology of words and phrases used in technical writing
+   :title: The technical writing lexicon
+   :twitter\:description: Etymology of words and phrases used in technical writing
+   :twitter\:title: The technical writing lexicon
 
 Words
 =======

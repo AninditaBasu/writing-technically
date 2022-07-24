@@ -1,6 +1,8 @@
 .. meta::
-   :description: Tutorials and blog posts for docs as code
-   :keywords: technical writing blog
+   :description: Guides and blog posts for a docs-as-code tooling, and etymology of words and phrases used in technical writing
+   :title: Writing Technically, a site for documentarians
+   :twitter\:description: Guides and blog posts for a docs-as-code tooling, and etymology of words used in technical writing
+   :twitter\:title: Writing Technically, a site for documentarians
 
 Writing Technically
 =====================
@@ -57,11 +59,25 @@ Writing Technically
 
    <hr/>
 
-The things that make this website run:
+These are the things that make this website run.
 
--  Source code: `GitHub <https://github.com/AninditaBasu/writing-technically>`_
--  Site generator: `Sphinx <http://www.sphinx-doc.org/>`_
--  Theme: `Book theme <https://sphinx-book-theme.readthedocs.io/en/stable/index.html>`_
+.. tabs::
+
+   .. tab:: Source files
+
+      `GitHub <https://github.com/AninditaBasu/writing-technically>`_
+
+   .. tab:: Site generator
+
+      `Sphinx <http://www.sphinx-doc.org/>`_
+
+   .. tab:: Theme
+
+      `Book theme <https://sphinx-book-theme.readthedocs.io/en/stable/index.html>`_
+
+   .. tab:: Hosting service
+
+      `Read The Docs <https://readthedocs.org/>`_
 
 .. raw:: html
 

@@ -1,3 +1,12 @@
+---
+myst:
+  html_meta:
+    description: The definition and origin of the word Ephemeral, and some notes and examples
+    title: Etymology of Ephemeral
+    twitter\:description: The definition and origin of the word Ephemeral, and some notes and examples
+    twitter\:title: Etymology of Ephemeral
+---
+
 # Ephemeral
 
 <hr/>

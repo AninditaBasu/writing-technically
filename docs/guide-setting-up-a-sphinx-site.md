@@ -1,3 +1,12 @@
+---
+myst:
+  html_meta:
+    description: Instructions for creating a Sphinx site and deploying it to GitHub, GitLab, and Read The Docs
+    title: How to create and deploy a Sphinx site
+    twitter\:description: Instructions for creating a Sphinx site and deploying it to GitHub, GitLab, and Read The Docs
+    twitter\:title: How to create and deploy a Sphinx site
+---
+
 # How to set up a Sphinx site
 
 <hr/>
@@ -27,7 +36,7 @@ The entire process takes about 50 minutes or longer.
 
 ### Steps
 
-1. Create a directory.
+1. On your computer, create a directory.
 2. Open a Python terminal and use the `cd` command to go to this directory you just created.
 3. Create a text file called `README.rst`. Optionally, add a line or two in this file.
 4. Run the `sphinx-quickstart docs` command and, at the prompts, specify the following inputs:
@@ -186,9 +195,22 @@ Make your changes locally, test them, and then push them to your repo.
 1. Open the `index.rst` file. This file is the home page of your site. Edit it to your heart's content.
 2. For every page that you want on your site, add an `RST` file to the `docs/source` directory. Images go into the `docs/source/_static` directory.
 3. Test your changes while you work:
-    1. Open a Python terminal and go to the `<your-Sphinx-directory>/docs` directory
-    2. Run the `make html` command.
-   Then, look at the output in the `docs/build` directory.
+    1. Open a Python terminal and go to the `<your-Sphinx-directory>/docs` directory.
+    2. Build the site locally by running the following command.
+
+       ````{eval-rst}
+       .. tabs::
+       
+          .. tab:: Windows systems
+       
+             ``.\make html``
+       
+          .. tab:: Unix and related systems
+       
+             ``make html``
+       
+       ````
+    3. Look at the output in the `docs/build` directory.
 
 ### Change the theme
 
@@ -223,6 +245,6 @@ Sphinx knows how to change `RST` file to `HTML`, and will do so without promptin
 
 ## Publicise the site
 
-This part, I don't have any _gyan_ for except saying, use your best offices :) 
+This part, I don't have any _gyan_ for except saying, use your best offices :)
 
 <img src="_static/s_1_600.jpg" alt="site logo" style="display: block; margin-left: auto; margin-right: auto; width:10%;">

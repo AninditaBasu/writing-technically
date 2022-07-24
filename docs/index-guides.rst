@@ -1,6 +1,8 @@
 .. meta::
-   :description: A collection of tutorials for some docs-as-code tasks
-   :keywords: tutorials and HowTos
+   :description: A crockful of recipes for self and other elves, so that conjuring documentation is easier
+   :title: Guides for technical writing
+   :twitter\:description: A crockful of recipes for self and other elves, so that conjuring documentation is easier
+   :twitter\:title: Guides for technical writing
 
 Guides
 =======
@@ -29,6 +31,7 @@ A crock of recipes for self and other elves.
     :maxdepth: 1
 
     guide-setting-up-a-sphinx-site.md
+    guide-adding-social-cards-to-a-sphinx-site.md
 
 .. raw:: html
 

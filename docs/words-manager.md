@@ -1,3 +1,12 @@
+---
+myst:
+  html_meta:
+    description: The definition and origin of the word Manager, and some notes and examples
+    title: Etymology of Manager
+    twitter\:description: The definition and origin of the word Manager, and some notes and examples
+    twitter\:title: Etymology of Manager
+---
+
 # Manager
 
 <hr/>

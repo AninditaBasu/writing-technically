@@ -1,6 +1,8 @@
 .. meta::
-   :description: Blog posts on technical writing
-   :keywords: documentation blog
+   :description: A sharing of notes that will (hopefully) spark ruminations, discussions, and construction-destructions in technical writing
+   :title: Thoughts on technical writing
+   :twitter\:description: A sharing of notes that will (hopefully) spark ruminations, discussions, and construction-destructions in technical writing
+   :twitter\:title: Thoughts on technical writing
 
 Thoughts
 ==========

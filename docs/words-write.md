@@ -1,3 +1,12 @@
+---
+myst:
+  html_meta:
+    description: The definition and origin of the word Write, and some notes and examples
+    title: Etymology of Write
+    twitter\:description: The definition and origin of the word Write, and some notes and examples
+    twitter\:title: Etymology of Write
+---
+
 # Write
 
 <hr/>
