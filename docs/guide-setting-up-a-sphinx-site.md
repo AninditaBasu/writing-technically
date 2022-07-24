@@ -1,7 +1,7 @@
 # How to set up a Sphinx site
 
 <hr/>
-<p style="font-weight:bold;font-size:75%;color:orange">19 July 2022</p>
+<p style="font-weight:bold;font-size:75%;color:orange">19 July 2022 (last updated: 24 July 2022)</p>
 
 Sphinx is a static site generator that uses Python to convert `RST` and `MD` files to `HTML`.
 
@@ -59,9 +59,54 @@ The entire process takes about 50 minutes or longer.
 
 So that everyone in the world can see your site, push your files to your favourite deployment-solution provider.
 
+### Deploy through GitLab
+
+You ask GitLab to build the site for you and make it available through Pages. To do so, you first host your source on a GitLab repository, and then use a `.gitlab-ci.yml` file as a CI/CD file for GitLab to build and serve the site.
+
+```{admonition} Estimated time
+5 minutes
+```
+
+1. Sign in to GitLab and create a repository.
+    ```{margin} **What your repo should contain**
+        docs
+        ├── make.bat
+        ├── Makefile
+        └── source
+           ├── conf.py
+           ├── index.rst
+           ├── _static
+           └── _templates
+        .gitlab-ci.yml
+        README.rst
+    ```
+2. Add a `.gitlab-ci.yml` file, at the root of the repository, with the following matter:
+    ```
+    stages:
+      - deploy
+    
+    pages:
+      stage: deploy
+      image: python:3.9-slim
+      before_script:
+        - apt-get update && apt-get install make     --no-install-recommends -y
+        - python -m pip install sphinx
+      script:
+        - cd docs && make html
+      after_script:
+        - mv docs/build/html/ ./public/
+      artifacts:
+        paths:
+        - public
+      rules:
+        - if: $CI_COMMIT_REF_NAME == "main"
+    ```
+3. Push the entire `docs` directory (minus the `docs/build` directory) from your computer to the `main` branch of the GitLab repository.
+5. Wait for the build to complete, after which your site is available at `<your-user-name>.gitlab.io/<your-repo-name>`.
+
 ### Deploy through GitHub
 
-You have two ways of doing this.
+You have two options for doing this.
 
 #### Option 1. Upload the built HTML files
 
@@ -82,11 +127,11 @@ In this method, you build the files locally, and upload only the output to GitHu
 
 In this method, you upload the source files to GitHub, and ask GitHub to generate the output. In this method, the output files are always in sync with the source files.
 
-I haven't completely figured out this method yet. The GitHub build is running fine but the site deployment is going awry. When I sort it out, I'll update this page.
+I haven't completely figured out this method yet. The GitHub build is running fine but the site deployment is going awry. After I sort it out, I'll update this page.
 
 ### Deploy through Read The Docs
 
-You have only one option, which is that of asking Read The Docs to build the site for you. To do so, you first host your source on a publicly available Git repository, and then use a `YAML` file as the build script that Read The Docs will read to build the output.
+You have only one option, which is that of asking Read The Docs to build the site for you. To do so, you first host your source on a publicly available Git repository, and then use a `.readthedocs.yaml` file as a CI/CD file that Read The Docs will read to build the output.
 
 ```{admonition} Estimated time
 10 minutes
@@ -178,6 +223,6 @@ Sphinx knows how to change `RST` file to `HTML`, and will do so without promptin
 
 ## Publicise the site
 
-This part, I don't have any _gyan_ for. Use your best offices :) 
+This part, I don't have any _gyan_ for except saying, use your best offices :) 
 
 <img src="_static/s_1_600.jpg" alt="site logo" style="display: block; margin-left: auto; margin-right: auto; width:10%;">
