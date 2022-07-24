@@ -1,6 +1,6 @@
 sphinx
 myst_parser
-sphinx-tabs
 sphinx-book-theme
+sphinx-tabs
 sphinx-copybutton
 sphinx-favicon
