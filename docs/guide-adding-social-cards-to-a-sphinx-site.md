@@ -5,14 +5,20 @@ myst:
     "title": "How to add social media cards to the pages on a Sphinx site"
     "twitter:description": "Instructions for adding page meta content in Markdown and ReStructured text files for a Sphinx site"
     "twitter:title": "How to add social media cards to the pages on a Sphinx site"
-    "twitter:image": "_static/s_1_600.jpg"
-    "twitter:card": "summary"
+    "twitter:image": "https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg"
+    "twitter:card": "summary_large_image"
+    "og:type": "website"
+    "og:title": "How to add social media cards to the pages on a Sphinx site"
+    "og:description": "Instructions for adding page meta content in Markdown and ReStructured text files for a Sphinx site"
+    "og:image": "https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg"
+    "og:image:type": "image/png"
+    "author": "Anindita Basu"
 ---
 
 # How to add social media cards to a Sphinx site
 
 <hr/>
-<p style="font-weight:bold;font-size:75%;color:orange">24 July 2022</p>
+<p style="font-weight:bold;font-size:75%;color:orange">25 July 2022</p>
 
 Social cards are for defining the heading, short description, and image of your webpage when it's shared on social media. These details are picked from the `<meta>` tag of the rendered `HTML` content.
 

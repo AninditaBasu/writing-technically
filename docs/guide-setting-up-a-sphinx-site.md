@@ -5,8 +5,14 @@ myst:
     "title": "How to create and deploy a Sphinx site"
     "twitter:description": "Instructions for creating a Sphinx site and deploying it to GitHub, GitLab, and Read The Docs"
     "twitter:title": "How to create and deploy a Sphinx site"
-    "twitter:image": "_static/s_1_600.jpg"
-    "twitter:card": "summary"
+    "twitter:image": "https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg"
+    "twitter:card": "summary_large_image"
+    "og:type": "website"
+    "og:title": "How to create and deploy a Sphinx site"
+    "og:description": "Instructions for creating a Sphinx site and deploying it to GitHub, GitLab, and Read The Docs"
+    "og:image": "https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg"
+    "og:image:type": "image/png"
+    "author": "Anindita Basu"
 ---
 
 # How to set up a Sphinx site

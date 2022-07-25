@@ -3,8 +3,14 @@
    :title: Writing Technically, a site for documentarians
    :twitter\:description: Guides and blog posts for a docs-as-code tooling, and etymology of words used in technical writing
    :twitter\:title: Writing Technically, a site for documentarians
-   :twitter\:image: _static/s_1_600.jpg
-   :twitter\:card: summary
+   :twitter\:image: https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg
+   :twitter\:card: summary_large_image
+   :og\:type: website
+   :og\:title: Writing Technically, a site for documentarians
+   :og\:description: Guides and blog posts for a docs-as-code tooling, and etymology of words used in technical writing
+   :og\:image: https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg
+   :og\:image\:type: image/png
+   :author: Anindita Basu
 
 Writing Technically
 =====================
@@ -61,25 +67,25 @@ Writing Technically
 
    <hr/>
 
-These are the things that make this website run.
+The things that make this website run are these.
 
 .. tabs::
 
    .. tab:: Source files
 
-      `GitHub <https://github.com/AninditaBasu/writing-technically>`_
+      Text is in `MD` and `RST` files on `GitHub <https://github.com/AninditaBasu/writing-technically>`_
 
    .. tab:: Site generator
 
-      `Sphinx <http://www.sphinx-doc.org/>`_
+      The ancient `Sphinx <http://www.sphinx-doc.org/>`_
 
    .. tab:: Theme
 
-      `Book theme <https://sphinx-book-theme.readthedocs.io/en/stable/index.html>`_
+      The uncluttered and feature-rich `Book theme <https://sphinx-book-theme.readthedocs.io/en/stable/index.html>`_
 
    .. tab:: Hosting service
 
-      `Read The Docs <https://readthedocs.org/>`_
+      Free plan of `Read The Docs <https://readthedocs.org/>`_
 
 .. raw:: html
 

@@ -1,10 +1,16 @@
 .. meta::
    :description: A crockful of recipes for self and other elves, so that conjuring documentation is easier
-   :title: Guides for technical writing
+   :title: Guides for common technical writing tasks
    :twitter\:description: A crockful of recipes for self and other elves, so that conjuring documentation is easier
-   :twitter\:title: Guides for technical writing
-   :twitter\:image: _static/s_1_600.jpg
-   :twitter\:card: summary
+   :twitter\:title: Guides for common technical writing tasks
+   :twitter\:image: https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg
+   :twitter\:card: summary_large_image
+   :og\:type: website
+   :og\:title: Guides for common technical writing tasks
+   :og\:description: A crockful of recipes for self and other elves, so that conjuring documentation is easier
+   :og\:image: https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg
+   :og\:image\:type: image/png
+   :author: Anindita Basu
 
 Guides
 =======

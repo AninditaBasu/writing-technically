@@ -1,12 +1,18 @@
 ---
 myst:
   html_meta:
-    "description": "The definition and origin of the word Ephemeral, and some notes and examples"
+    "description": "Definition and origin of the word Ephemeral, and some notes and examples"
     "title": "Etymology of Ephemeral"
-    "twitter:description": "The definition and origin of the word Ephemeral, and some notes and examples"
+    "twitter:description": "Definition and origin of the word Ephemeral, and some notes and examples"
     "twitter:title": "Etymology of Ephemeral"
-    "twitter:image": "_static/s_1_600.jpg"
-    "twitter:card": "summary"
+    "twitter:image": "https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg"
+    "twitter:card": "summary_large_image"
+    "og:type": "website"
+    "og:title": "Etymology of Content"
+    "og:description": "Definition and origin of the word Ephemeral, and some notes and examples"
+    "og:image": "https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg"
+    "og:image:type": "image/png"
+    "author": "Anindita Basu"
 ---
 
 # Ephemeral

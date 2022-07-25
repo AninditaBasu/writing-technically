@@ -1,10 +1,16 @@
 .. meta::
-   :description: A sharing of notes that will (hopefully) spark ruminations, discussions, and construction-destructions in technical writing
+   :description: A sharing of notes and blog posts that will (hopefully) spark ruminations, discussions, and construction-destructions in technical writing
    :title: Thoughts on technical writing
-   :twitter\:description: A sharing of notes that will (hopefully) spark ruminations, discussions, and construction-destructions in technical writing
+   :twitter\:description: A sharing of notes and blog posts that will (hopefully) spark ruminations, discussions, and construction-destructions in technical writing
    :twitter\:title: Thoughts on technical writing
-   :twitter\:image: _static/s_1_600.jpg
-   :twitter\:card: summary
+   :twitter\:image: https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg
+   :twitter\:card: summary_large_image
+   :og\:type: website
+   :og\:title: Thoughts on technical writing
+   :og\:description: A sharing of notes and blog posts that will (hopefully) spark ruminations, discussions, and construction-destructions in technical writing
+   :og\:image: https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg
+   :og\:image\:type: image/png
+   :author: Anindita Basu
 
 Thoughts
 ==========
