@@ -73,7 +73,7 @@ The things that make this website run are these.
 
    .. tab:: Source files
 
-      Text is in `MD` and `RST` files on `GitHub <https://github.com/AninditaBasu/writing-technically>`_
+      ```MD``` and ```RST``` files on `GitHub <https://github.com/AninditaBasu/writing-technically>`_
 
    .. tab:: Site generator
 
