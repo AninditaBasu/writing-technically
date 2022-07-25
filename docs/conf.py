@@ -56,7 +56,8 @@ html_theme_options = {
     "use_repository_button": True,
     "use_issues_button": True,
     "use_edit_page_button": True,
-    "logo_only": True,#To remove the site title below the logo
+    "repository_branch": "main",
+    "logo_only": True,
     "home_page_in_toc": True,
     "show_navbar_depth": 2,
     "extra_navbar": "<a href='about.html'>About me</a>",

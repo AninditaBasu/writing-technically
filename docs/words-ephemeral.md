@@ -18,7 +18,7 @@ myst:
 # Ephemeral
 
 <hr/>
-<p style="font-weight:bold;font-size:75%;color:orange">24 July 2022</p>
+<p style="font-weight:bold;font-size:75%;color:orange">25 July 2022</p>
 
 ```{admonition} ephemeral
 
@@ -29,7 +29,7 @@ myst:
 
 ## Origin
 
-Late 16th century, from the Greek word _ephēmeros_ which means 'lasting only a day'. The neuter form of _ephēmeros_ also gives the singular _ephemeron_ (plural, _ephemera_), which originally denoted a plant said by ancient writers to last only one day, or an insect with a short lifespan.
+Late 16th century, from the Greek word _ephēmeros_.
 
 ## Example
 
@@ -39,10 +39,20 @@ Late 16th century, from the Greek word _ephēmeros_ which means 'lasting only a 
 > 
 > "Is my flower in danger of speedy disappearance?"
 > 
-> "Certainly it is."
+> "Certainly it is." [^littlePrince]
+
+[^littlePrince]: From Antoine de Saint-Exupéry's [The Little Prince](https://www.thelittleprince.com/).
 
 ## Notes
 
+_Ephēmeros_ means 'lasting only a day'. The neuter form of _ephēmeros_ also gives the singular _ephemeron_ (plural, _ephemera_), which originally denoted a plant said by ancient writers to last only one day, or an insect with a short lifespan.
+
 So, next time you see something like `Ephemeral containers are created by using a special _ephemeralcontainers_ handler in the API`, please know that such containers are in danger of speedy disappearance.
+
+Another word that shares the same root is 'ephemeris', which is the word for tables that contain the positions of stars and planets at a specific times over a specific period.
+
+Sometimes, the Greek word _Ephēmeros_ is also used in the sense of a diary or journal, and calendar. Which brings us to the Farmer's Almanac.  Rooted in ancient wisdom and folklore, farming-by-the-stars is still a viable practise that's followed in several countries.
+
+And farming produces food, which is always in danger of speedy disappearance.
 
 <img src="_static/s_1_600.jpg" alt="site logo" style="display: block; margin-left: auto; margin-right: auto; width:10%;">

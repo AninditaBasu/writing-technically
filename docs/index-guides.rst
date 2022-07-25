@@ -31,6 +31,8 @@ A crock of recipes for self and other elves.
 
    And hang a pearl in every cowslip's ear.
 
+   -- Shakespeare, William. "A Midsummer Night's Dream".
+
 .. raw:: html
 
    <hr/>

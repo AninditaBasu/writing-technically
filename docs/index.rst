@@ -52,6 +52,8 @@ Writing Technically
 
    Ashes and sparks, my words ...
 
+   -- Shelley, Percy Bysshe. "Ode to the West Wind".
+
 .. raw:: html
 
    <hr/>

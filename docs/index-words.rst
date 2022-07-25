@@ -35,6 +35,8 @@ A lexicon of words and phrases.
 
    And the mome raths outgrabe.
 
+   -- Carrol, Lewis. "Jabberwocky".
+
 .. raw:: html
 
    <hr/>
