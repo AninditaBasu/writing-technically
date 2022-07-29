@@ -2,5 +2,6 @@ sphinx
 myst_parser
 sphinx-book-theme
 sphinx-tabs
+sphinx-togglebutton
 sphinx-copybutton
 sphinx-favicon

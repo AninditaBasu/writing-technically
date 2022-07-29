@@ -8,7 +8,7 @@ myst:
     "twitter:image": "https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg"
     "twitter:card": "summary_large_image"
     "og:type": "website"
-    "og:title": "Etymology of Content"
+    "og:title": "Etymology of Ephemeral"
     "og:description": "Definition and origin of the word Ephemeral, and some notes and examples"
     "og:image": "https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg"
     "og:image:type": "image/png"
@@ -49,7 +49,7 @@ _Ephēmeros_ means 'lasting only a day'. The neuter form of _ephēmeros_ also gi
 
 So, next time you see something like `Ephemeral containers are created by using a special _ephemeralcontainers_ handler in the API`, please know that such containers are in danger of speedy disappearance.
 
-Another word that shares the same root is 'ephemeris', which is the word for tables that contain the positions of stars and planets at a specific times over a specific period.
+Another word that shares the same root is 'ephemeris', which is the word for tables that contain the positions of stars and planets at  specific times over a specific period.
 
 Sometimes, the Greek word _Ephēmeros_ is also used in the sense of a diary or journal, and calendar. Which brings us to the Farmer's Almanac.  Rooted in ancient wisdom and folklore, farming-by-the-stars is still a viable practise that's followed in several countries.
 

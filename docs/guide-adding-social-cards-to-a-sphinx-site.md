@@ -1,9 +1,9 @@
 ---
 myst:
   html_meta:
-    "description": "Instructions for adding page meta content in Markdown and ReStructured text files for a Sphinx site"
+    "description": "No need to override any layouts.html template. Use meta tags in Markdown and ReStructured Text files, and backslash to escape colons."
     "title": "How to add social media cards to the pages on a Sphinx site"
-    "twitter:description": "Instructions for adding page meta content in Markdown and ReStructured text files for a Sphinx site"
+    "twitter:description": "No need to override any layouts.html template. Use meta tags in Markdown and ReStructured Text files, and backslash to escape colons."
     "twitter:title": "How to add social media cards to the pages on a Sphinx site"
     "twitter:image": "https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg"
     "twitter:card": "summary_large_image"

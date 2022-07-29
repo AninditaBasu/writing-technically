@@ -3,13 +3,13 @@ myst:
   html_meta:
     "description": "Instructions for creating a Sphinx site and deploying it to GitHub, GitLab, and Read The Docs"
     "title": "How to create and deploy a Sphinx site"
-    "twitter:description": "Instructions for creating a Sphinx site and deploying it to GitHub, GitLab, and Read The Docs"
+    "twitter:description": "Creating a Sphinx site and deploying it to GitHub, GitLab, and Read The Docs. You need Python, but you don't need to know Python."
     "twitter:title": "How to create and deploy a Sphinx site"
     "twitter:image": "https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg"
     "twitter:card": "summary_large_image"
     "og:type": "website"
     "og:title": "How to create and deploy a Sphinx site"
-    "og:description": "Instructions for creating a Sphinx site and deploying it to GitHub, GitLab, and Read The Docs"
+    "og:description": "Creating a Sphinx site and deploying it to GitHub, GitLab, and Read The Docs. You need Python, but you don't need to know Python."
     "og:image": "https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg"
     "og:image:type": "image/png"
     "author": "Anindita Basu"
@@ -40,7 +40,17 @@ The entire process takes about 50 minutes or longer.
 ### Prerequisites
 
 - Python 3.0 or later. To see if you have Python installed somewhere on your computer, open the command prompt, type `python`, and press Enter.
+    ```{toggle}
+    To install Python:
+      ````{eval-rst}
+      .. include:: common-install-python.rst
+      ````
+    ```
 - Sphinx 5.0 or later. To see if your computer has Sphinx, at the command prompt, type `sphinx-build --version`, and press Enter.
+    ```{toggle}
+    To install Sphinx, run the following command:
+    `pip install -U --pre sphinx`
+    ```
 
 ### Steps
 
@@ -201,8 +211,9 @@ Make your changes locally, test them, and then push them to your repo.
 ```
 
 1. Open the `index.rst` file. This file is the home page of your site. Edit it to your heart's content.
-2. For every page that you want on your site, add an `RST` file to the `docs/source` directory. Images go into the `docs/source/_static` directory.
-3. Test your changes while you work:
+2. For every page that you want on your site, add an `RST` or `MD` file to the `docs/source` directory. Images go into the `docs/source/_static` directory.
+3. For every page that you want on your site, after you've created that page, add it as a `toctree` entry to the `index.rst` file.
+4. Test your changes while you work:
     1. Open a Python terminal and go to the `<your-Sphinx-directory>/docs` directory.
     2. Build the site locally by running the following command.
 

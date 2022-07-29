@@ -61,9 +61,10 @@ Writing Technically
 .. toctree::
     :maxdepth: 2
 
-    index-guides.rst
-    index-thoughts.rst
     index-words.rst
+    index-thoughts.rst
+    index-guides.rst
+
 
 .. raw:: html
 

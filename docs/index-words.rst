@@ -47,6 +47,7 @@ A lexicon of words and phrases.
     words-content.md
     words-ephemeral.md
     words-manager.md
+    words-swagger.md
     words-write.md
 
 .. raw:: html
