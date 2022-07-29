@@ -39,9 +39,9 @@ Late 16th century, from the Greek word _ephēmeros_.
 > 
 > "Is my flower in danger of speedy disappearance?"
 > 
-> "Certainly it is." [^littlePrince]
-
-[^littlePrince]: From Antoine de Saint-Exupéry's [The Little Prince](https://www.thelittleprince.com/).
+> "Certainly it is." 
+> 
+> -- Saint-Exupéry, Antoine de. "The Little Prince".
 
 ## Notes
 

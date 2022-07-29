@@ -39,9 +39,10 @@ Early 16th century, apparently a frequentative of the verb _swag_.
 >
 > What, a play toward? I’ll be an auditor,
 >
-> An actor too perhaps, if I see cause. [^midsummer]
+> An actor too perhaps, if I see cause.
+>
+> -- Shakespeare, William. "A Midsummer Night's Dream".
 
-[^midsummer]: From William Shakespeare's A Midsummer Nights Dream.
 
 ## Notes
 
