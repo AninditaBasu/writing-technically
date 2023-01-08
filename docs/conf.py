@@ -17,7 +17,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Writing Technically'
-copyright = '2022'
+copyright = '2022 - 2023'
 author = 'Anindita Basu, using <a href="http://www.sphinx-doc.org/">Sphinx</a> with the <a href="https://sphinx-book-theme.readthedocs.io/en/stable/index.html">Book theme</a> of the <a href="https://ebp.jupyterbook.org/">Executable Book project</a>.'
 
 # -- General configuration ---------------------------------------------------
