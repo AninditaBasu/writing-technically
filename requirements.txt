@@ -1,6 +1,6 @@
 sphinx
 myst_parser
-sphinx-book-theme<=0.3.2
+sphinx-book-theme>=0.3.3
 sphinx-tabs
 sphinx-togglebutton
 sphinx-copybutton
