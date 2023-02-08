@@ -73,12 +73,12 @@ html_sidebars = {
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 html_title = 'Home'
-html_logo = '_static/s_1_600.jpg'
+html_logo = '_static/harappa_unicorn.jpg'
 
 favicons = [
     {
         "rel": "icon",
-        "static-file": "s_1_600.jpg",
+        "static-file": "harappa_unicorn.jpg",
         "type": "image/jpg",
     },
 ]
