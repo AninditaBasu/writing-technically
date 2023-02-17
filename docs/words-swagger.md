@@ -5,12 +5,12 @@ myst:
     "title": "Etymology of Swagger"
     "twitter:description": "Definition and origin of the word Swagger, and some notes and examples"
     "twitter:title": "Etymology of Swagger"
-    "twitter:image": "https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg"
+    "twitter:image": "https://writing-technically.readthedocs.io/en/latest/_static/harappa_unicorn.jpg"
     "twitter:card": "summary_large_image"
     "og:type": "website"
     "og:title": "Etymology of Swagger"
     "og:description": "Definition and origin of the word Swagger, and some notes and examples"
-    "og:image": "https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg"
+    "og:image": "https://writing-technically.readthedocs.io/en/latest/_static/harappa_unicorn.jpg"
     "author": "Anindita Basu"
 ---
 
@@ -64,5 +64,3 @@ And that, children, is how the [OpenAPI Specification](https://spec.openapis.org
 [^swagger]: From [A Swagger Origin Story](https://www.youtube.com/watch?v=PKNyi9clqMQ) (YouTube video).
 
 <hr/>
-
-{{footer_image}}

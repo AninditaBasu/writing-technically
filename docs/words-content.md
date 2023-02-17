@@ -5,12 +5,12 @@ myst:
     "title": "Etymology of Content"
     "twitter:description": "Definition and origin of the word Content, and some notes and examples"
     "twitter:title": "Etymology of Content"
-    "twitter:image": "https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg"
+    "twitter:image": "https://writing-technically.readthedocs.io/en/latest/_static/harappa_unicorn.jpg"
     "twitter:card": "summary_large_image"
     "og:type": "website"
     "og:title": "Etymology of Content"
     "og:description": "Definition and origin of the word Content, and some notes and examples"
-    "og:image": "https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg"
+    "og:image": "https://writing-technically.readthedocs.io/en/latest/_static/harappa_unicorn.jpg"
     "author": "Anindita Basu"
 ---
 
@@ -43,4 +43,3 @@ _Content_ made its way into late Middle English from the medieval Latin _content
 
 <hr/>
 
-{{footer_image}}

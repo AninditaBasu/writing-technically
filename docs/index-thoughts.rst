@@ -3,12 +3,12 @@
    :title: Thoughts on technical writing
    :twitter\:description: A sharing of notes and blog posts that will (hopefully) spark ruminations, discussions, and construction-destructions in technical writing
    :twitter\:title: Thoughts on technical writing
-   :twitter\:image: https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg
+   :twitter\:image: https://writing-technically.readthedocs.io/en/latest/_static/harappa_unicorn.jpg
    :twitter\:card: summary_large_image
    :og\:type: website
    :og\:title: Thoughts on technical writing
    :og\:description: A sharing of notes and blog posts that will (hopefully) spark ruminations, discussions, and construction-destructions in technical writing
-   :og\:image: https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg
+   :og\:image: https://writing-technically.readthedocs.io/en/latest/_static/harappa_unicorn.jpg
    :author: Anindita Basu
 
 Thoughts
@@ -48,5 +48,3 @@ A sharing of notes that will (hopefully) spark ruminations, discussions, and con
 .. raw:: html
 
    <hr/>
-
-.. include:: footer_image_rst.txt

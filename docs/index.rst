@@ -3,12 +3,12 @@
    :title: Writing Technically, a site for documentarians
    :twitter\:description: Guides and blog posts for a docs-as-code tooling, and etymology of words used in technical writing
    :twitter\:title: Writing Technically, a site for documentarians
-   :twitter\:image: https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg
+   :twitter\:image: https://writing-technically.readthedocs.io/en/latest/_static/harappa_unicorn.jpg
    :twitter\:card: summary_large_image
    :og\:type: website
    :og\:title: Writing Technically, a site for documentarians
    :og\:description: Guides and blog posts for a docs-as-code tooling, and etymology of words used in technical writing
-   :og\:image: https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg
+   :og\:image: https://writing-technically.readthedocs.io/en/latest/_static/harappa_unicorn.jpg
    :author: Anindita Basu
 
 Writing Technically
@@ -92,6 +92,4 @@ The things that make this website run are these.
 .. raw:: html
 
    <hr/>
-
-.. include:: footer_image_rst.txt
 

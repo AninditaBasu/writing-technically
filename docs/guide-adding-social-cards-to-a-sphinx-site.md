@@ -5,12 +5,12 @@ myst:
     "title": "How to add social media cards to the pages on a Sphinx site"
     "twitter:description": "No need to override any layouts.html template. Use meta tags in Markdown and ReStructured Text files, and backslash to escape colons."
     "twitter:title": "How to add social media cards to the pages on a Sphinx site"
-    "twitter:image": "https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg"
+    "twitter:image": "https://writing-technically.readthedocs.io/en/latest/_static/harappa_unicorn.jpg"
     "twitter:card": "summary_large_image"
     "og:type": "website"
     "og:title": "How to add social media cards to the pages on a Sphinx site"
     "og:description": "Instructions for adding page meta content in Markdown and ReStructured text files for a Sphinx site"
-    "og:image": "https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg"
+    "og:image": "https://writing-technically.readthedocs.io/en/latest/_static/harappa_unicorn.jpg"
     "author": "Anindita Basu"
 ---
 
@@ -83,6 +83,4 @@ The front matter is rendered in `HTML` like this:
 ```
 
 <hr/>
-
-{{footer_image}}
 

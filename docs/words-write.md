@@ -5,12 +5,12 @@ myst:
     "title": "Etymology of Write"
     "twitter:description": "Definition and origin of the word Write, and some notes and examples"
     "twitter:title": "Etymology of Write"
-    "twitter:image": "https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg"
+    "twitter:image": "https://writing-technically.readthedocs.io/en/latest/_static/harappa_unicorn.jpg"
     "twitter:card": "summary_large_image"
     "og:type": "website"
     "og:title": "Etymology of Content"
     "og:description": "Definition and origin of the word Write, and some notes and examples"
-    "og:image": "https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg"
+    "og:image": "https://writing-technically.readthedocs.io/en/latest/_static/harappa_unicorn.jpg"
     "author": "Anindita Basu"
 ---
 
@@ -42,5 +42,3 @@ The word comes from Old English _writan_, which is a word of Germanic origin, re
 It is, thus, evident that many many years ago, writing included sketching and drawing — just like technical writing does today.
 
 <hr/>
-
-{{footer_image}}

@@ -5,12 +5,12 @@ myst:
     "title": "Etymology of Navigate"
     "twitter:description": "Definition and origin of the word Navigate, and some notes and examples"
     "twitter:title": "Etymology of Navigate"
-    "twitter:image": "https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg"
+    "twitter:image": "https://writing-technically.readthedocs.io/en/latest/_static/harappa_unicorn.jpg"
     "twitter:card": "summary_large_image"
     "og:type": "website"
     "og:title": "Etymology of Navigate"
     "og:description": "Definition and origin of the word Navigate, and some notes and examples"
-    "og:image": "https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg"
+    "og:image": "https://writing-technically.readthedocs.io/en/latest/_static/harappa_unicorn.jpg"
     "author": "Anindita Basu"
 ---
 
@@ -50,7 +50,5 @@ _Noise_ was used colloquially for the hullabaloo or donnybrook that happens when
 
 When a user complains about an app or a site being difficult to navigate, one may well wonder whether the UI is a tad too noisy or nauseous.
 
-
 <hr/>
 
-{{footer_image}}

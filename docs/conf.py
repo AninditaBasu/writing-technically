@@ -29,16 +29,13 @@ extensions = [
     'myst_parser',
     'sphinx_tabs.tabs',
     'sphinx_copybutton',
+    'sphinx_togglebutton',
     'sphinx-favicon',
 ]
 
 myst_enable_extensions = [
-    'strikethrough', 'substitution'
+    'strikethrough'
 ]
-
-myst_substitutions = {
-  'footer_image': '<img src="_static/harappa_unicorn.jpg" alt="site logo" style="display: block; margin-left: auto; margin-right: auto; width:10%;">'
-}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']

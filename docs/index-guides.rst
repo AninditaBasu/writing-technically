@@ -3,12 +3,12 @@
    :title: Guides for common technical writing tasks
    :twitter\:description: A crockful of recipes for self and other elves, so that conjuring documentation is easier
    :twitter\:title: Guides for common technical writing tasks
-   :twitter\:image: https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg
+   :twitter\:image: https://writing-technically.readthedocs.io/en/latest/_static/harappa_unicorn.jpg
    :twitter\:card: summary_large_image
    :og\:type: website
    :og\:title: Guides for common technical writing tasks
    :og\:description: A crockful of recipes for self and other elves, so that conjuring documentation is easier
-   :og\:image: https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg
+   :og\:image: https://writing-technically.readthedocs.io/en/latest/_static/harappa_unicorn.jpg
    :author: Anindita Basu
 
 Guides
@@ -45,5 +45,3 @@ A crock of recipes for self and other elves.
 .. raw:: html
 
    <hr/>
-
-.. include:: footer_image_rst.txt

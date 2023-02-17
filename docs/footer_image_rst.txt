@@ -1,4 +1,0 @@
-.. image:: _static/harappa_unicorn.jpg
-   :width: 10%
-   :alt: site logo
-   :align: center
