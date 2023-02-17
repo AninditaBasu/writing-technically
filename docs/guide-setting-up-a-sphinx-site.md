@@ -11,7 +11,6 @@ myst:
     "og:title": "How to create and deploy a Sphinx site"
     "og:description": "Creating a Sphinx site and deploying it to GitHub, GitLab, and Read The Docs. You need Python, but you don't need to know Python."
     "og:image": "https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg"
-    "og:image:type": "image/png"
     "author": "Anindita Basu"
 ---
 
@@ -266,4 +265,6 @@ Sphinx knows how to change `RST` file to `HTML`, and will do so without promptin
 
 This part, I don't have any _gyan_ for except saying, use your best offices :)
 
-<img src="_static/s_1_600.jpg" alt="site logo" style="display: block; margin-left: auto; margin-right: auto; width:10%;">
+<hr/>
+
+{{footer_image}}

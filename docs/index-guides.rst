@@ -9,7 +9,6 @@
    :og\:title: Guides for common technical writing tasks
    :og\:description: A crockful of recipes for self and other elves, so that conjuring documentation is easier
    :og\:image: https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg
-   :og\:image\:type: image/png
    :author: Anindita Basu
 
 Guides
@@ -45,4 +44,6 @@ A crock of recipes for self and other elves.
 
 .. raw:: html
 
-   <img src="_static/s_1_600.jpg" alt="site logo" style="display: block; margin-left: auto; margin-right: auto; width:10%;">
+   <hr/>
+
+.. include:: footer_image_rst.txt

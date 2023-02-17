@@ -11,7 +11,6 @@ myst:
     "og:title": "Etymology of Content"
     "og:description": "Definition and origin of the word Content, and some notes and examples"
     "og:image": "https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg"
-    "og:image:type": "image/png"
     "author": "Anindita Basu"
 ---
 
@@ -42,4 +41,6 @@ Late Middle English, from the medieval Latin _contentum_.
 
 _Content_ made its way into late Middle English from the medieval Latin _contentum_ (plural _contenta_, meaning 'things contained'), which is the neuter past participle of _continere_ (from _con-_ 'altogether' + _tenere_ 'to hold'). Thus, 'content' is not only some thing, it is also something that goes well together with some other thing. Gibberish isn't content; twittering doesn't produce content.
 
-<img src="_static/s_1_600.jpg" alt="site logo" style="display: block; margin-left: auto; margin-right: auto; width:10%;">
+<hr/>
+
+{{footer_image}}

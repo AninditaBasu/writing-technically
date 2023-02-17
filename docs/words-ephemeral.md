@@ -11,7 +11,6 @@ myst:
     "og:title": "Etymology of Ephemeral"
     "og:description": "Definition and origin of the word Ephemeral, and some notes and examples"
     "og:image": "https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg"
-    "og:image:type": "image/png"
     "author": "Anindita Basu"
 ---
 
@@ -55,4 +54,6 @@ Sometimes, the Greek word _Ephēmeros_ is also used in the sense of a diary or j
 
 And farming produces food, which is always in danger of speedy disappearance.
 
-<img src="_static/s_1_600.jpg" alt="site logo" style="display: block; margin-left: auto; margin-right: auto; width:10%;">
+<hr/>
+
+{{footer_image}}

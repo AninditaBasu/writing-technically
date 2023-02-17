@@ -9,7 +9,6 @@
    :og\:title: Thoughts on technical writing
    :og\:description: A sharing of notes and blog posts that will (hopefully) spark ruminations, discussions, and construction-destructions in technical writing
    :og\:image: https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg
-   :og\:image\:type: image/png
    :author: Anindita Basu
 
 Thoughts
@@ -48,4 +47,6 @@ A sharing of notes that will (hopefully) spark ruminations, discussions, and con
 
 .. raw:: html
 
-   <img src="_static/s_1_600.jpg" alt="site logo" style="display: block; margin-left: auto; margin-right: auto; width:10%;">
+   <hr/>
+
+.. include:: footer_image_rst.txt

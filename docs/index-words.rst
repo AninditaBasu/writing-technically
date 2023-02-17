@@ -9,7 +9,6 @@
    :og\:title: The technical writing lexicon
    :og\:description: Etymology of some words and phrases used in technical writing, with examples and notes
    :og\:image: https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg
-   :og\:image\:type: image/png
    :author: Anindita Basu
 
 Words
@@ -47,9 +46,12 @@ A lexicon of words and phrases.
     words-content.md
     words-ephemeral.md
     words-manager.md
+    words-navigate.md
     words-swagger.md
     words-write.md
 
 .. raw:: html
 
-   <img src="_static/s_1_600.jpg" alt="site logo" style="display: block; margin-left: auto; margin-right: auto; width:10%;">
+   <hr/>
+
+.. include:: footer_image_rst.txt

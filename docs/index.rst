@@ -9,7 +9,6 @@
    :og\:title: Writing Technically, a site for documentarians
    :og\:description: Guides and blog posts for a docs-as-code tooling, and etymology of words used in technical writing
    :og\:image: https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg
-   :og\:image\:type: image/png
    :author: Anindita Basu
 
 Writing Technically
@@ -94,6 +93,5 @@ The things that make this website run are these.
 
    <hr/>
 
-.. raw:: html
+.. include:: footer_image_rst.txt
 
-   <img src="_static/s_1_600.jpg" alt="site logo" style="display: block; margin-left: auto; margin-right: auto; width:10%;">

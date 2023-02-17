@@ -11,7 +11,6 @@ myst:
     "og:title": "How to add social media cards to the pages on a Sphinx site"
     "og:description": "Instructions for adding page meta content in Markdown and ReStructured text files for a Sphinx site"
     "og:image": "https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg"
-    "og:image:type": "image/png"
     "author": "Anindita Basu"
 ---
 
@@ -83,4 +82,7 @@ The front matter is rendered in `HTML` like this:
 <meta content="Title" name="twitter:title" />
 ```
 
-<img src="_static/s_1_600.jpg" alt="site logo" style="display: block; margin-left: auto; margin-right: auto; width:10%;">
+<hr/>
+
+{{footer_image}}
+

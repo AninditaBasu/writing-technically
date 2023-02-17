@@ -11,7 +11,6 @@ myst:
     "og:title": "Etymology of Content"
     "og:description": "Definition and origin of the word Write, and some notes and examples"
     "og:image": "https://writing-technically.readthedocs.io/en/latest/_static/s_1_600.jpg"
-    "og:image:type": "image/png"
     "author": "Anindita Basu"
 ---
 
@@ -42,4 +41,6 @@ The word comes from Old English _writan_, which is a word of Germanic origin, re
 
 It is, thus, evident that many many years ago, writing included sketching and drawing — just like technical writing does today.
 
-<img src="_static/s_1_600.jpg" alt="site logo" style="display: block; margin-left: auto; margin-right: auto; width:10%;">
+<hr/>
+
+{{footer_image}}
