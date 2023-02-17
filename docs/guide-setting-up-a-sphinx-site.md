@@ -33,8 +33,10 @@ The entire process takes about 50 minutes or longer.
 ## Build a site locally
 
 ```{admonition} Estimated time
--  Prerequisites: 15 minutes
--  Steps: 5 minutes
+
+   -  Prerequisites: 15 minutes
+   -  Steps: 5 minutes
+
 ```
 
 ### Prerequisites
@@ -58,17 +60,14 @@ The entire process takes about 50 minutes or longer.
            ├── _static
            └── _templates
     ````
-4. Run the `sphinx-quickstart docs` command and, at the prompts, specify the following inputs:
+4. Run the `sphinx-quickstart docs` command and, at the prompts, specify the following inputs. Some files and folders are created.
     1. Separate source and build directories (y/n) [n]: Type `y` and press Enter.
     2. Project name: Type the name of your site and press Enter.
     3. Author name(s): Type your name and press Enter.
     4. Project release [ ]: Press Enter.
     5. Project language [en]: Press Enter.
-
-    Some files and folders are created.
-
 5. Run the following command: `sphinx-build -b html docs/source/ docs/build/html`.
-    `HTML` content is generated from the `source/index.rst` file and other files, and placed in the `build` folder.
+   `HTML` content is generated from the `source/index.rst` file and other files, and placed in the `build` folder.
 6. In a browser, open the `build/index.html` file. This is the home page of your website.
 
 ## Deploy the site for public consumption
@@ -80,7 +79,9 @@ So that everyone in the world can see your site, push your files to your favouri
 You ask GitLab to build the site for you and make it available through Pages. To do so, you first host your source on a GitLab repository, and then use a `.gitlab-ci.yml` file as a CI/CD file for GitLab to build and serve the site.
 
 ```{admonition} Estimated time
-5 minutes
+
+   5 minutes
+   
 ```
 
 1. Sign in to GitLab and create a repository.
@@ -129,7 +130,9 @@ You have two options for doing this.
 In this method, you build the files locally, and upload only the output to GitHub. The source files are, thus, not connected to the output files.
 
 ```{admonition} Estimated time
-5 - 7 minutes
+
+   5 - 7 minutes
+
 ```
 
 1. Sign in to GitHub and create a repository.
@@ -150,7 +153,9 @@ I haven't completely figured out this method yet. The GitHub build is running fi
 You have only one option, which is that of asking Read The Docs to build the site for you. To do so, you first host your source on a publicly available Git repository, and then use a `.readthedocs.yaml` file as a CI/CD file that Read The Docs will read to build the output.
 
 ```{admonition} Estimated time
-10 minutes
+
+   10 minutes
+
 ```
 
 1. Sign in to GitHub, GitLab, or BitBucket and create a repository.
@@ -196,7 +201,9 @@ Because the site is about you.
 Make your changes locally, test them, and then push them to your repo.
 
 ```{admonition} Estimated time
-10 minutes or longer
+
+   10 minutes or longer
+
 ```
 
 1. Open the `index.rst` file. This file is the home page of your site. Edit it to your heart's content.
@@ -225,7 +232,9 @@ Make your changes locally, test them, and then push them to your repo.
 The default theme of Sphinx docs is `alabaster`, which is a bit insipid. Find a theme that's more you.
 
 ```{admonition} Estimated time
-10 minutes or longer
+
+   10 minutes or longer
+
 ```
 
 1. If it's a third-party theme, install it by running a `pip install` command.
@@ -240,7 +249,9 @@ Because some people (like me) find Markdown much more easy to handle than the re
 Sphinx knows how to change `RST` file to `HTML`, and will do so without prompting. It also knows how to change `MD` files to `HTML`, but needs to be told specially (through the `conf.py` file) to do so.
 
 ```{admonition} Estimated time
-2 minutes
+
+   2 minutes
+
 ```
 
 1. Add the following entry to the `conf.py` file:
