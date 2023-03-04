@@ -26,6 +26,7 @@ author = 'Anindita Basu, using <a href="http://www.sphinx-doc.org/">Sphinx</a> w
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinx_book_theme',
     'myst_parser',
     'sphinx_tabs.tabs',
     'sphinx_copybutton',
