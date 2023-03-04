@@ -30,7 +30,7 @@ extensions = [
     'sphinx_tabs.tabs',
     'sphinx_copybutton',
     'sphinx_togglebutton',
-    'sphinx-favicon'
+    'sphinx_favicon'
 ]
 
 myst_enable_extensions = [

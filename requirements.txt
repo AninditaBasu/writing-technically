@@ -5,4 +5,4 @@ sphinx-book-theme>=0.3.3
 sphinx-tabs
 sphinx-togglebutton
 sphinx-copybutton
-sphinx-favicon
+sphinx_favicon>=1.0
