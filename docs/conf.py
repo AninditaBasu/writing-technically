@@ -26,7 +26,6 @@ author = 'Anindita Basu, using <a href="http://www.sphinx-doc.org/">Sphinx</a> w
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx_book_theme',
     'myst_parser',
     'sphinx_tabs.tabs',
     'sphinx_copybutton',
@@ -67,7 +66,7 @@ html_theme_options = {
     "show_toc_level": 3,
 }
 html_sidebars = {
-    "**": ["sidebar-logo.html", "search-field.html", "sbt-sidebar-nav.html"]
+    "**": ["navbar-logo.html", "search-field.html", "sbt-sidebar-nav.html"]
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
