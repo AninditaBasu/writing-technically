@@ -73,15 +73,15 @@ This library showed the most promise. It has several methods for finding similar
 -  The wordnet method, which takes the semantics of the words into account. I thought this would be good for identifying sentences that convey the same thing despite being worded differently. I was disappointed by the results, though.
 -  The Jaccard method, which is the one that gave me the most astonishingly accurate results. The similarity ratio is calculated as follows: `J(A, B) = |A ∩ B| / |A ∪ B|`, where `A` and `B` are the tokenized text of the two files being compared.
 
-I got very good results withe Jaccard method, so this is where I stopped exploring, and started running pilots with writers. (It's working well.) 
+I got very good results with the Jaccard method, so this is where I stopped exploring, and started running pilots with writers. (It's working well.) 
 
 Both `difflib` and `nltk.metrics.jaccard_distance` are good but I chose the Jaccard method because of its accuracy and speed. Here are some numbers for speed.
 
 | Number of files | `difflib` |	`jaccard` |
 |---|---|---|
-| 797 files | 40 minutes | 30 minutes |
-| 4151 files | 7 hours | 4 hours |
-| 2561 files | 5 hours | 3 hours |
+| 797 | 40 minutes | 30 minutes |
+| 4151 | 7 hours | 4 hours |
+| 2561 | 5 hours | 3 hours |
 
 And, here's a screenshot of a file-pair that `jaccard` reported as being 81.82% identical (while `difflib` said 79.82%). The Jaccard score is more accurate.  
 
