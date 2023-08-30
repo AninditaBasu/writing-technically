@@ -1,10 +1,30 @@
-# Identical files
+---
+myst:
+  html_meta:
+    "description": "An exploration of some Python libraries that compute a similarity score for all files in a given directory"
+    "title": "Identical files, and how to spot them"
+    "twitter:description": "An exploration of some Python libraries that can help compute a similarity score for files in a given repository"
+    "title": "Find the similarity score of files"
+    "twitter:title": "Identical files, and how to spot them"
+    "twitter:image": "https://writing-technically.readthedocs.io/en/latest/_static/harappa_unicorn.jpg"
+    "twitter:card": "summary_large_image"
+    "og:type": "website"
+    "og:title": "Identical files, and how to spot them"
+    "og:description": "An exploration of some Python libraries that can help compute a similarity score for files in a given repository"
+    "title": "Find the similarity score of files"
+    "og:image": "https://writing-technically.readthedocs.io/en/latest/_static/harappa_unicorn.jpg"
+    "author": "Anindita Basu"
+---
+
+# Identical files, and how to spot them
 
 <hr/>
+<p style="font-weight:bold;font-size:75%;color:orange">30 August 2023</p>
 
 Sometimes, we create files. Other times, we inherit files. Many a times, we share files across products and services. In all of this, what remains constantly unwaveringly unstintingly true is...bloat. Our documentation sets grow in size, and keep growing, and before long, we're staring at docs debt.
 
 ![burden](/images/burden.png)
+*(Image courtesy the Bing Image Generator)*
 
 A documentation set that I ran a scan on, for example, revealed the following numbers.
 
@@ -66,7 +86,6 @@ Both `difflib` and `nltk.metrics.jaccard_distance` give good results but I chose
 And, here's a screenshot of a file-pair that `jaccard` reported as being 81.82% identical (while `difflib` said 79.82%). The Jaccard score is more accurate.  
 
 ![burden](/images/almost_identical_2.png)
-
 *(I added the underlines in these files, and highlighted some text, only for screenshot purposes. They show the differences in this part of the text.)*
 
 ## What next
