@@ -44,6 +44,7 @@ A sharing of notes that will (hopefully) spark ruminations, discussions, and con
     :maxdepth: 1
 
     thoughts-dita-without-dita.md
+	thoughts-content-similarity.md
 
 .. raw:: html
 
