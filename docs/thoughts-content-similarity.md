@@ -6,13 +6,13 @@ myst:
     "twitter:description": "An exploration of some Python libraries that can help compute a similarity score for files in a given repository"
     "title": "Find the similarity score of files"
     "twitter:title": "Identical files, and how to spot them"
-    "twitter:image": "https://writing-technically.readthedocs.io/en/latest/_static/harappa_unicorn.jpg"
+    "twitter:image": "https://writing-technically.readthedocs.io/en/latest/_static/burden.png"
     "twitter:card": "summary_large_image"
     "og:type": "website"
     "og:title": "Identical files, and how to spot them"
     "og:description": "An exploration of some Python libraries that can help compute a similarity score for files in a given repository"
     "title": "Find the similarity score of files"
-    "og:image": "https://writing-technically.readthedocs.io/en/latest/_static/harappa_unicorn.jpg"
+    "og:image": "https://writing-technically.readthedocs.io/en/latest/_static/burden.png"
     "author": "Anindita Basu"
 ---
 
