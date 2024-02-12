@@ -101,8 +101,8 @@ We work with DITA, which already has content reuse built in. All that's needed n
 ## Benefits
 
 -  Reduced file count, so: 
-    -  Reduced resource consumption by machines (storage, clone time, build time)
-	-  Lesser time spent by humans (to update, edit, review, and maintain files)
--  Reduced word count, so reduced translation costs.
+    -  Reduced resource consumption by machines (to store, clone, and build)
+	-  Lesser time spent by humans (to update, review, and maintain)
+-  Reduced word count, so reduced translation costs
 
 <hr/>
