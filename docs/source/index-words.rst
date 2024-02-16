@@ -1,14 +1,14 @@
 .. meta::
    :description: Etymology of some words and phrases used in technical writing, with examples and notes
    :title: The technical writing lexicon
-   :twitter\:description: Etymology of some words and phrases used in technical writing, with examples and notes
-   :twitter\:title: The technical writing lexicon
-   :twitter\:image: https://writing-technically.readthedocs.io/en/latest/_static/harappa_unicorn.jpg
-   :twitter\:card: summary_large_image
-   :og\:type: website
-   :og\:title: The technical writing lexicon
-   :og\:description: Etymology of some words and phrases used in technical writing, with examples and notes
-   :og\:image: https://writing-technically.readthedocs.io/en/latest/_static/harappa_unicorn.jpg
+   :twitter:description: Etymology of some words and phrases used in technical writing, with examples and notes
+   :twitter:title: The technical writing lexicon
+   :twitter:image: https://writing-technically.readthedocs.io/en/latest/_static/wordcloud.jpg
+   :twitter:card: summary_large_image
+   :og:type: website
+   :og:title: The technical writing lexicon
+   :og:description: Etymology of some words and phrases used in technical writing, with examples and notes
+   :og:image: https://writing-technically.readthedocs.io/en/latest/_static/wordcloud.jpg
    :author: Anindita Basu
 
 Words

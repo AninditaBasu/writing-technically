@@ -1,14 +1,14 @@
 .. meta::
    :description: Guides and blog posts for a docs-as-code tooling, and etymology of words and phrases used in technical writing
    :title: Writing Technically, a site for documentarians
-   :twitter\:description: Guides and blog posts for a docs-as-code tooling, and etymology of words used in technical writing
-   :twitter\:title: Writing Technically, a site for documentarians
-   :twitter\:image: https://writing-technically.readthedocs.io/en/latest/_static/harappa_unicorn.jpg
-   :twitter\:card: summary_large_image
-   :og\:type: website
-   :og\:title: Writing Technically, a site for documentarians
-   :og\:description: Guides and blog posts for a docs-as-code tooling, and etymology of words used in technical writing
-   :og\:image: https://writing-technically.readthedocs.io/en/latest/_static/harappa_unicorn.jpg
+   :twitter:description: Guides and blog posts for a docs-as-code tooling, and etymology of words used in technical writing
+   :twitter:title: Writing Technically, a site for documentarians
+   :twitter:image: https://writing-technically.readthedocs.io/en/latest/_static/wordcloud.jpg
+   :twitter:card: summary_large_image
+   :og:type: website
+   :og:title: Writing Technically, a site for documentarians
+   :og:description: Guides and blog posts for a docs-as-code tooling, and etymology of words used in technical writing
+   :og:image: https://writing-technically.readthedocs.io/en/latest/_static/wordcloud.jpg
    :author: Anindita Basu
 
 Writing Technically
