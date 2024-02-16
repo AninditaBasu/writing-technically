@@ -14,5 +14,5 @@ To run the build locally:
     -  `pip install sphinx-favicon`
     -  `pip install sphinx-book-theme`
     -  `pip install sphinx-togglebutton`
-1. Go to the `writing-technically/docs` folder and run `.\make html`
+1. Go to the `/docs` folder and run `.\make html`
 

@@ -57,7 +57,7 @@ The entire process takes about 50 minutes or longer.
    -   Project language [en]: Press Enter.
    
    The following files and folders are created:
-   ```commandline
+   ```
         docs
         ├── build
         ├── make.bat
@@ -86,10 +86,7 @@ You ask GitLab to build the site for you and make it available through Pages. To
    
 ```
 
-1. Sign in to GitLab and create a repository.
-    ````{margin} **What your repo should contain**
-
-    ````
+1. Sign in to GitLab and create a repository.    
 2. Add a `.gitlab-ci.yml` file, at the root of the repository, with the following matter:
     ```
     stages:
@@ -112,7 +109,7 @@ You ask GitLab to build the site for you and make it available through Pages. To
         - if: $CI_COMMIT_REF_NAME == "main"
     ```
 3. Push the entire `docs` directory (minus the `docs/build` directory) from your computer to the `main` branch of the GitLab repository. This is what your repository should look like:
-   ```commandline
+   ```
         docs
         ├── make.bat
         ├── Makefile
