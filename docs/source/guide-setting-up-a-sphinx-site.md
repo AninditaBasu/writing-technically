@@ -5,12 +5,12 @@ myst:
     "title": "How to create and deploy a Sphinx site"
     "twitter:description": "Creating a Sphinx site and deploying it to GitHub, GitLab, and Read The Docs. You need Python, but you don't need to know Python."
     "twitter:title": "How to create and deploy a Sphinx site"
-    "twitter:image": "https://writing-technically.readthedocs.io/en/latest/_static/harappa_unicorn.jpg"
+    "twitter:image": "https://writing-technically.readthedocs.io/en/latest/_static/wordcloud.jpg"
     "twitter:card": "summary_large_image"
     "og:type": "website"
     "og:title": "How to create and deploy a Sphinx site"
     "og:description": "Creating a Sphinx site and deploying it to GitHub, GitLab, and Read The Docs. You need Python, but you don't need to know Python."
-    "og:image": "https://writing-technically.readthedocs.io/en/latest/_static/harappa_unicorn.jpg"
+    "og:image": "https://writing-technically.readthedocs.io/en/latest/_static/wordcloud.jpg"
     "author": "Anindita Basu"
 ---
 

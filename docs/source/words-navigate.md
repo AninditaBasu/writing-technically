@@ -5,12 +5,12 @@ myst:
     "title": "Etymology of Navigate"
     "twitter:description": "Definition and origin of the word Navigate, and some notes and examples"
     "twitter:title": "Etymology of Navigate"
-    "twitter:image": "https://writing-technically.readthedocs.io/en/latest/_static/harappa_unicorn.jpg"
+    "twitter:image": "https://writing-technically.readthedocs.io/en/latest/_static/wordcloud.jpg"
     "twitter:card": "summary_large_image"
     "og:type": "website"
     "og:title": "Etymology of Navigate"
     "og:description": "Definition and origin of the word Navigate, and some notes and examples"
-    "og:image": "https://writing-technically.readthedocs.io/en/latest/_static/harappa_unicorn.jpg"
+    "og:image": "https://writing-technically.readthedocs.io/en/latest/_static/wordcloud.jpg"
     "author": "Anindita Basu"
 ---
 

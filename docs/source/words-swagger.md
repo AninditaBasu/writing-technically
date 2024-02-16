@@ -5,12 +5,12 @@ myst:
     "title": "Etymology of Swagger"
     "twitter:description": "Definition and origin of the word Swagger, and some notes and examples"
     "twitter:title": "Etymology of Swagger"
-    "twitter:image": "https://writing-technically.readthedocs.io/en/latest/_static/harappa_unicorn.jpg"
+    "twitter:image": "https://writing-technically.readthedocs.io/en/latest/_static/wordcloud.jpg"
     "twitter:card": "summary_large_image"
     "og:type": "website"
     "og:title": "Etymology of Swagger"
     "og:description": "Definition and origin of the word Swagger, and some notes and examples"
-    "og:image": "https://writing-technically.readthedocs.io/en/latest/_static/harappa_unicorn.jpg"
+    "og:image": "https://writing-technically.readthedocs.io/en/latest/_static/wordcloud.jpg"
     "author": "Anindita Basu"
 ---
 
