@@ -17,13 +17,9 @@ myst:
 # How to add social media cards to a Sphinx site
 
 <hr/>
-<p style="font-weight:bold;font-size:75%;color:orange">25 July 2022</p>
+<p style="font-weight:bold;font-size:75%;color:orange">25 July 2022 (last updated: 16 February 2024)</p>
 
 Social cards are for defining the heading, short description, and image of your webpage when it's shared on social media. These details are picked from the `<meta>` tag of the rendered `HTML` content.
-
-```{admonition} TL;DR
-In `RST` files, use the backslash (`\`) to escape the colon (`:`) in the meta names of the social cards.
-```
 
 How the `HTML` is created in Sphinx is determined by the templates of the theme you're using. Does this mean you'll need to write overrides for templates? No! You only need to specify the info as a `meta` info in the `RST` or `MD` file itself. You do this by using front matter.
 
@@ -56,16 +52,14 @@ Here is how you add meta information that can be read by social media sites.
             ---
       
      .. tab:: ReStructured Text files
-
-        Use the backslash (```\```) to escape the colon (```:```) in the meta names of the social cards.
       
         .. code:: 
       
            .. meta::
               :description: This is the description
               :title: Title
-              :twitter\:description: This is the description
-              :twitter\:title: Title
+              :twitter:description: This is the description
+              :twitter:title: Title
       
   ````
 
