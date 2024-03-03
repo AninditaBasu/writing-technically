@@ -14,7 +14,7 @@ myst:
     "author": "Anindita Basu"
 ---
 
-# Identical files, and how to spot them
+# Doc debt: Identical files
 
 <hr/>
 <p style="font-weight:bold;font-size:75%;color:orange">30 August 2023</p>
