@@ -18,6 +18,8 @@ certifi==2024.2.2
     # via requests
 charset-normalizer==3.3.2
     # via requests
+colorama==0.4.6
+    # via sphinx
 docutils==0.19
     # via
     #   myst-parser

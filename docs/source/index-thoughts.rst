@@ -1,14 +1,14 @@
 .. meta::
    :description: A sharing of notes and blog posts that will (hopefully) spark ruminations, discussions, and construction-destructions in technical writing
    :title: Thoughts on technical writing
-   :twitter:description: A sharing of notes and blog posts that will (hopefully) spark ruminations, discussions, and construction-destructions in technical writing
-   :twitter:title: Thoughts on technical writing
-   :twitter:image: https://writing-technically.readthedocs.io/en/latest/_static/wordcloud.jpg
-   :twitter:card: summary_large_image
-   :og:type: website
-   :og:title: Thoughts on technical writing
-   :og:description: A sharing of notes and blog posts that will (hopefully) spark ruminations, discussions, and construction-destructions in technical writing
-   :og:image: https://writing-technically.readthedocs.io/en/latest/_static/wordcloud.jpg
+   :twitter\:description: A sharing of notes and blog posts that will (hopefully) spark ruminations, discussions, and construction-destructions in technical writing
+   :twitter\:title: Thoughts on technical writing
+   :twitter\:image: https://writing-technically.readthedocs.io/en/latest/_static/wordcloud.jpg
+   :twitter\:card: summary_large_image
+   :og\:type: website
+   :og\:title: Thoughts on technical writing
+   :og\:description: A sharing of notes and blog posts that will (hopefully) spark ruminations, discussions, and construction-destructions in technical writing
+   :og\:image: https://writing-technically.readthedocs.io/en/latest/_static/wordcloud.jpg
    :author: Anindita Basu
 
 Thoughts
@@ -44,6 +44,7 @@ A sharing of notes that will (hopefully) spark ruminations, discussions, and con
     :maxdepth: 1
 
     thoughts-dita-without-dita.md
+    thoughts-dita-tipping-point.md
     thoughts-content-similarity.md
 
 .. raw:: html
