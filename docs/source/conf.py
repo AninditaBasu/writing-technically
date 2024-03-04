@@ -39,9 +39,9 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 html_theme = "sphinx_book_theme"
 html_theme_options = {
     "repository_url": "https://github.com/AninditaBasu/writing-technically",
-    "use_repository_button": True,
-    "use_issues_button": True,
-    "use_edit_page_button": True,
+    "use_repository_button": False,
+    "use_issues_button": False,
+    "use_edit_page_button": False,
     "use_download_button": False,
     "repository_branch": "main",
     "home_page_in_toc": True,
