@@ -39,9 +39,9 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 html_theme = "sphinx_book_theme"
 html_theme_options = {
     "repository_url": "https://github.com/AninditaBasu/writing-technically",
-    "use_repository_button": False,
-    "use_issues_button": False,
-    "use_edit_page_button": False,
+    "use_repository_button": True,
+    "use_issues_button": True,
+    "use_edit_page_button": True,
     "use_download_button": False,
     "repository_branch": "main",
     "home_page_in_toc": True,
@@ -53,6 +53,7 @@ html_theme_options = {
 html_sidebars = {
     "**": ["navbar-logo.html", "search-field.html", "sbt-sidebar-nav.html"]
 }
+html_baseurl = "https://writing-technically.readthedocs.io/en/latest/"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

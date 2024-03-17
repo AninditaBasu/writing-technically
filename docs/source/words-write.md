@@ -1,13 +1,19 @@
 ---
 myst:
   html_meta:
+    "canonical": "https://writing-technically.readthedocs.io/en/latest/words-write.html"
     "description": "Definition and origin of the word Write, and some notes and examples"
     "title": "Etymology of Write"
     "twitter:description": "Definition and origin of the word Write, and some notes and examples"
     "twitter:title": "Etymology of Write"
     "twitter:image": "https://writing-technically.readthedocs.io/en/latest/_static/wordcloud.jpg"
     "twitter:card": "summary_large_image"
-    "og:type": "website"
+    "twitter:creator": "@anindita_basu"
+    "twitter:site": "@anindita_basu"
+    "og:locale": "en_US"
+    "og:site_name": "Writing technically"
+    "og:url": "https://writing-technically.readthedocs.io/en/latest/words-write.html"
+    "og:type": "article"
     "og:title": "Etymology of Content"
     "og:description": "Definition and origin of the word Write, and some notes and examples"
     "og:image": "https://writing-technically.readthedocs.io/en/latest/_static/wordcloud.jpg"

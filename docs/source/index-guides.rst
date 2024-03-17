@@ -1,11 +1,17 @@
 .. meta::
+   :canonical: https://writing-technically.readthedocs.io/en/latest/index-guides.html
    :description: A crockful of recipes for self and other elves, so that conjuring documentation is easier
    :title: Guides for common technical writing tasks
    :twitter\:description: A crockful of recipes for self and other elves, so that conjuring documentation is easier
    :twitter\:title: Guides for common technical writing tasks
    :twitter\:image: https://writing-technically.readthedocs.io/en/latest/_static/wordcloud.jpg
    :twitter\:card: summary_large_image
-   :og\:type: website
+   :twitter\:creator: @anindita_basu
+   :twitter\:site: @anindita_basu
+   :og\:locale: en_US
+   :og\:site_name: Writing technically
+   :og\:url: https://writing-technically.readthedocs.io/en/latest/index-guides.html
+   :og\:type: article
    :og\:title: Guides for common technical writing tasks
    :og\:description: A crockful of recipes for self and other elves, so that conjuring documentation is easier
    :og\:image: https://writing-technically.readthedocs.io/en/latest/_static/wordcloud.jpg

@@ -1,13 +1,19 @@
 ---
 myst:
   html_meta:
+    "canonical": "https://writing-technically.readthedocs.io/en/latest/thoughts-content-similarity.html"
     "description": "An exploration of some Python libraries that compute a similarity score for all files in a given directory"
     "title": "Identical files, and how to spot them"
     "twitter:description": "An exploration of some Python libraries that can help compute a similarity score for files in a given repository"
     "twitter:title": "Identical files, and how to spot them"
     "twitter:image": "https://writing-technically.readthedocs.io/en/latest/_static/burden.png"
     "twitter:card": "summary_large_image"
-    "og:type": "website"
+    "twitter:creator": "@anindita_basu"
+    "twitter:site": "@anindita_basu"
+    "og:locale": "en_US"
+    "og:site_name": "Writing technically"
+    "og:url": "https://writing-technically.readthedocs.io/en/latest/thoughts-content-similarity.html"
+    "og:type": "article"
     "og:title": "Identical files, and how to spot them"
     "og:description": "An exploration of some Python libraries that can help compute a similarity score for files in a given repository"
     "og:image": "https://writing-technically.readthedocs.io/en/latest/_static/burden.png"

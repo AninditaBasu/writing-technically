@@ -1,13 +1,19 @@
 ---
 myst:
   html_meta:
+    "canonical": "https://writing-technically.readthedocs.io/en/latest/words-swagger.html"
     "description": "Definition and origin of the word Swagger, and some notes and examples"
     "title": "Etymology of Swagger"
     "twitter:description": "Definition and origin of the word Swagger, and some notes and examples"
     "twitter:title": "Etymology of Swagger"
     "twitter:image": "https://writing-technically.readthedocs.io/en/latest/_static/wordcloud.jpg"
     "twitter:card": "summary_large_image"
-    "og:type": "website"
+    "twitter:creator": "@anindita_basu"
+    "twitter:site": "@anindita_basu"
+    "og:locale": "en_US"
+    "og:site_name": "Writing technically"
+    "og:url": "https://writing-technically.readthedocs.io/en/latest/words-swagger.html"
+    "og:type": "article"
     "og:title": "Etymology of Swagger"
     "og:description": "Definition and origin of the word Swagger, and some notes and examples"
     "og:image": "https://writing-technically.readthedocs.io/en/latest/_static/wordcloud.jpg"

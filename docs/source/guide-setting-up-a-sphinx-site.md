@@ -1,13 +1,19 @@
 ---
 myst:
   html_meta:
+    "canonical": "https://writing-technically.readthedocs.io/en/latest/guide-setting-up-a-sphinx-site.html"
     "description": "Instructions for creating a Sphinx site and deploying it to GitHub, GitLab, and Read The Docs"
     "title": "How to create and deploy a Sphinx site"
     "twitter:description": "Creating a Sphinx site and deploying it to GitHub, GitLab, and Read The Docs. You need Python, but you don't need to know Python."
     "twitter:title": "How to create and deploy a Sphinx site"
     "twitter:image": "https://writing-technically.readthedocs.io/en/latest/_static/wordcloud.jpg"
     "twitter:card": "summary_large_image"
-    "og:type": "website"
+    "twitter:creator": "@anindita_basu"
+    "twitter:site": "@anindita_basu"
+    "og:locale": "en_US"
+    "og:site_name": "Writing technically"
+    "og:url": "https://writing-technically.readthedocs.io/en/latest/guide-setting-up-a-sphinx-site.html"
+    "og:type": "article"
     "og:title": "How to create and deploy a Sphinx site"
     "og:description": "Creating a Sphinx site and deploying it to GitHub, GitLab, and Read The Docs. You need Python, but you don't need to know Python."
     "og:image": "https://writing-technically.readthedocs.io/en/latest/_static/wordcloud.jpg"

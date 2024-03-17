@@ -1,17 +1,23 @@
 ---
 myst:
   html_meta:
+    "canonical": "https://writing-technically.readthedocs.io/en/latest/thoughts-dita-tipping-point.html"
     "title": "When to move from docs-as-code to DITA"
     "description": "At what point does DITA become a good alternative to docs-as-code?"
     "author": "Anindita Basu"
-    "og:type": "website"
     "og:title": "When to move from docs-as-code to DITA"
     "og:description": "At what point does DITA become a good alternative to docs-as-code?"
-    "og:image": "https://writing-technically.readthedocs.io/en/latest/_static/wordcloud.jpg"
+    "og:image": "https://writing-technically.readthedocs.io/en/latest/_static/wordcloud.jpg"    
+    "og:locale": "en_US"
+    "og:site_name": "Writing technically"
+    "og:url": "https://writing-technically.readthedocs.io/en/latest/thoughts-dita-tipping-point.html"
+    "og:type": "article"
     "twitter:card": "summary_large_image"
     "twitter:title": "When to move from docs-as-code to DITA"
     "twitter:description": "At what point does DITA become a good alternative to docs-as-code?"
     "twitter:image": "https://writing-technically.readthedocs.io/en/latest/_static/wordcloud.jpg"
+    "twitter:creator": "@anindita_basu"
+    "twitter:site": "@anindita_basu"
 ---
 
 # From docs-as-code to DITA

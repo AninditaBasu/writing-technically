@@ -1,13 +1,19 @@
 ---
 myst:
   html_meta:
+    "canonical": "https://writing-technically.readthedocs.io/en/latest/thoughts-dita-without-dita.html"
     "description": "Can docs-as-code implement the unique features of DITA"
     "title": "DITA without DITA"
     "twitter:description": "Can docs-as-code implement the unique features of DITA"
     "twitter:title": "DITA without DITA"
     "twitter:image": "https://writing-technically.readthedocs.io/en/latest/_static/wordcloud.jpg"
     "twitter:card": "summary_large_image"
-    "og:type": "website"
+    "twitter:creator": "@anindita_basu"
+    "twitter:site": "@anindita_basu"
+    "og:locale": "en_US"
+    "og:site_name": "Writing technically"
+    "og:url": "https://writing-technically.readthedocs.io/en/latest/thoughts-dita-without-dita.html"
+    "og:type": "article"
     "og:title": "DITA without DITA"
     "og:description": "Can docs-as-code implement the unique features of DITA"
     "og:image": "https://writing-technically.readthedocs.io/en/latest/_static/wordcloud.jpg"

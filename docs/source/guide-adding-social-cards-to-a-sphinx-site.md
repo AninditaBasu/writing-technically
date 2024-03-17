@@ -1,13 +1,19 @@
 ---
 myst:
   html_meta:
+    "canonical": "https://writing-technically.readthedocs.io/en/latest/guide-adding-social-cards-to-a-sphinx-site.html"
     "description": "No need to override any layouts.html template. Use meta tags in Markdown and ReStructured Text files, and backslash to escape colons."
     "title": "How to add social media cards to the pages on a Sphinx site"
     "twitter:description": "No need to override any layouts.html template. Use meta tags in Markdown and ReStructured Text files, and backslash to escape colons."
     "twitter:title": "How to add social media cards to the pages on a Sphinx site"
     "twitter:image": "https://writing-technically.readthedocs.io/en/latest/_static/wordcloud.jpg"
     "twitter:card": "summary_large_image"
-    "og:type": "website"
+    "twitter:creator": "@anindita_basu"
+    "twitter:site": "@anindita_basu"
+    "og:locale": "en_US"
+    "og:site_name": "Writing technically"
+    "og:url": "https://writing-technically.readthedocs.io/en/latest/guide-adding-social-cards-to-a-sphinx-site.html"
+    "og:type": "article"
     "og:title": "How to add social media cards to the pages on a Sphinx site"
     "og:description": "Instructions for adding page meta content in Markdown and ReStructured text files for a Sphinx site"
     "og:image": "https://writing-technically.readthedocs.io/en/latest/_static/wordcloud.jpg"
