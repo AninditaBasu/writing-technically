@@ -20,7 +20,7 @@ myst:
     "author": "Anindita Basu"
 ---
 
-# How to add social media cards to a Sphinx site
+# Adding social media cards to a Sphinx site
 
 <hr/>
 <p style="font-weight:bold;font-size:75%;color:orange">25 July 2022</p>

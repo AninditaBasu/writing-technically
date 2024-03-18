@@ -47,6 +47,7 @@ A crock of recipes for self and other elves.
 
     guide-setting-up-a-sphinx-site.md
     guide-adding-social-cards-to-a-sphinx-site.md
+    guide-canonical-urls-in-a-sphinx-site.md
 
 .. raw:: html
 

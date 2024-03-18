@@ -20,7 +20,7 @@ myst:
     "author": "Anindita Basu"
 ---
 
-# How to set up a Sphinx site
+# Setting up a Sphinx site
 
 <hr/>
 <p style="font-weight:bold;font-size:75%;color:orange">19 July 2022 (last updated: 4 March 2023)</p>
