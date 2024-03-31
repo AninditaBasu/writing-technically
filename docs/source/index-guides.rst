@@ -36,7 +36,7 @@ A crock of recipes for self and other elves.
 
    And hang a pearl in every cowslip's ear.
 
-   -- Shakespeare, William. "A Midsummer Night's Dream".
+   -- William Shakespeare, *A Midsummer Night's Dream*
 
 .. raw:: html
 
@@ -45,9 +45,9 @@ A crock of recipes for self and other elves.
 .. toctree::
     :maxdepth: 1
 
-    guide-setting-up-a-sphinx-site.md
-    guide-adding-social-cards-to-a-sphinx-site.md
-    guide-canonical-urls-in-a-sphinx-site.md
+    guides-setting-up-a-sphinx-site.md
+    guides-adding-social-cards-to-a-sphinx-site.md
+    guides-canonical-urls-in-a-sphinx-site.md
 
 .. raw:: html
 

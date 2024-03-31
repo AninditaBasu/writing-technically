@@ -40,7 +40,7 @@ A sharing of notes that will (hopefully) spark ruminations, discussions, and con
 
    Will hum about mine ears.
 
-   -- Shakespeare, William. "The Tempest".
+   -- William Shakespeare, *The Tempest*
 
 .. raw:: html
 

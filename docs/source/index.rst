@@ -46,7 +46,7 @@ Writing Technically
 
    Ashes and sparks, my words ...
 
-   -- Shelley, Percy Bysshe. "Ode to the West Wind".
+   -- Percy Byshhe Shelley, *Ode to the West Wind*
 
 .. raw:: html
 
@@ -55,6 +55,7 @@ Writing Technically
 .. toctree::
     :maxdepth: 2
 
+    index-courses.rst
     index-thoughts.rst
     index-guides.rst
     index-words.rst
