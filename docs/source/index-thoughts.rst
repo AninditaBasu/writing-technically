@@ -56,3 +56,11 @@ A sharing of notes that will (hopefully) spark ruminations, discussions, and con
 .. raw:: html
 
    <hr/>
+
+.. raw:: html
+
+   <center>
+   
+   <img src = "images/tishyarakshita.jpg" alt = "The painting titled Asoka's Queen by Abanindranath Tagore"/>
+   
+   </center>
