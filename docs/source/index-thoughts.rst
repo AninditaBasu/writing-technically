@@ -61,6 +61,6 @@ A sharing of notes that will (hopefully) spark ruminations, discussions, and con
 
    <center>
    
-   <img src = "./images/tishyarakshita.jpg" alt = "The painting titled Asoka's Queen by Abanindranath Tagore"/>
+   <img src = "../images/tishyarakshita.jpg" alt = "The painting by Abanindranath Tagore titled Asoka's Queen"/>
    
    </center>
