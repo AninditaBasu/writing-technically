@@ -59,3 +59,7 @@ A lexicon of words and phrases.
 .. raw:: html
 
    <hr/>
+
+.. image:: images/SENS47.jpg
+   :alt: Untitled painting by Sushil Chandra Sen
+   :align: center

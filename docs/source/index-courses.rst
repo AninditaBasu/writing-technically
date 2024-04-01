@@ -60,3 +60,7 @@ A set of lessons.
 .. raw:: html
 
    <hr/>
+
+.. image:: images/nandalal_bose_haripura_9.jpg
+   :alt: Painting by Nandlal Bose titled A Lady Artist
+   :align: center

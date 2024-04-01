@@ -52,3 +52,7 @@ A crock of recipes for self and other elves.
 .. raw:: html
 
    <hr/>
+
+.. image:: images/nandalal_bose_haripura_1.jpg
+   :alt: Painting by Nandlal Bose titled Potter
+   :align: center

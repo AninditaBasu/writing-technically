@@ -57,10 +57,6 @@ A sharing of notes that will (hopefully) spark ruminations, discussions, and con
 
    <hr/>
 
-.. raw:: html
-
-   <center>
-   
-   <img src = "../images/tishyarakshita.jpg" alt = "The painting by Abanindranath Tagore titled Asoka's Queen"/>
-   
-   </center>
+.. image:: images/tishyarakshita.jpg
+   :alt: Painting by Abanindranath Tagore titled Asoka's Queen
+   :align: center
