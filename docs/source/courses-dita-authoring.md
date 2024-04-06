@@ -20,7 +20,7 @@ myst:
     "author": "Anindita Basu"
 ---
 
-# Learn to write in (and with) DITA
+# Writing in DITA
 
 <hr/>
 <p style="font-weight:bold;font-size:75%;color:orange">31 March 2024</p>
@@ -33,12 +33,11 @@ Just like architecture is the process of designing the shape of buildings, so is
 
 <hr/>
 
-## Course contents
-
-The following lessons show how to think and write in DITA.
+This course contains the following lessons that show how to think and write in DITA.
 
 -  [Information typing](courses-dita-authoring-infotype.md)
--  Tags
+-  [Tags](courses-dita-authoring-tags-intro.md)
+-  [Tagging considerations](courses-dita-authoring-tags-more.md)
 -  Maps
 -  Reuse
 -  Single sourcing

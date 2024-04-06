@@ -22,6 +22,7 @@ extensions = [
 ]
 
 myst_enable_extensions = [
+    'deflist',
     'strikethrough'
 ]
 
