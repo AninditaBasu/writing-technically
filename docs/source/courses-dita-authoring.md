@@ -23,7 +23,7 @@ myst:
 # Writing in DITA
 
 <hr/>
-<p style="font-weight:bold;font-size:75%;color:orange">31 March 2024</p>
+<p style="font-weight:bold;font-size:75%;color:orange">9 April 2024</p>
 
 DITA is a language and an architecture.
 
@@ -35,11 +35,7 @@ Just like architecture is the process of designing the shape of buildings, so is
 
 This course contains the following lessons that show how to think and write in DITA.
 
--  [Information typing](courses-dita-authoring-infotype.md)
--  [Tags](courses-dita-authoring-tags-intro.md)
--  [Tagging considerations](courses-dita-authoring-tags-more.md)
--  Maps
--  Reuse
--  Single sourcing
+```{include} courses-dita-authoring-toc.md
+```
 
 <hr/>

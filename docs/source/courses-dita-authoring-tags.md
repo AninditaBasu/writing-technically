@@ -20,10 +20,12 @@ myst:
     "author": "Anindita Basu"
 ---
 
-# Tags
+# Tagging in DITA
 
 <hr/>
-<p style="font-weight:bold;font-size:75%;color:orange">3 April 2024</p>
+<p style="font-weight:bold;font-size:75%;color:orange">9 April 2024</p>
+
+In the [previous lesson](courses-dita-authoring-infotype.md), you learnt about arranging information into discrete buckets called topic types. In this lesson, you'll learn how to move that information to the DITA vocabulary.
 
 DITA is a markup language, which means that all content in DITA is marked up (or, labelled with) tags. Because DITA tags are almost always semantic, the name of the tag itself is a clue to its purpose and function.
 
@@ -44,7 +46,7 @@ Further, some tags can contain child tags and sometimes, the parent tag can hold
 ````{eval-rst}
 .. tabs::
 
-   .. tab:: Parent tag can hold content
+   .. tab:: Parent tag can hold content by itself
 
       ``<note>The value in the <varname>outputdir</varname> field should include the complete file path.</note>``
       
@@ -151,7 +153,7 @@ Therefore, in the usual tech-writer life, a minimally valid DITA topic looks lik
           
           <refbody>
           ...
-          What are the existence milestones?
+          What are the existential milestones?
           ...
           </refbody>
                 
@@ -225,35 +227,25 @@ For the curious, however, here's an indicative list of tags that these topic typ
 
 ````
 
-For a complete list, take a look at the [DITA language specification](https://docs.oasis-open.org/dita/v1.2/os/spec/language_reference.html#language_reference). Again, remember that you don't need to memorise these; just be aware, broadly, of what can be used where.
+Every tag has a name, for example, `shortdesc` or `title`. Every tag also has several attributes that describe the tag. You can think of attributes as tag-metadata; they contain information about, and for, the tag. A tag can have more than one attribute.  Every attribute has a name (for example, `id`) and a value (for example, `pqr-768-ish`). Here's an example of a `link` tag that has an attribute named `href` (with the value being `pqr.dita`) and an attribute named `scope` (whose value is `local`).
 
-```{admonition} tagging != formatting
+`<link scope="local" href="pqr.dita">`
 
-   Remember to use tags for their purpose and not for how their content is rendered in the output (`.html`, `.pdf`, or other). 
-   
-   DITA does contain formatting tags such as `<b>` and `<i>`, but orgs didn't adopt DITA because of formatting.  Orgs adopt DITA because they want content to be marked up uniformly by everyone according to the meaning inherent in the content. The only meaning that an `<i>` tag can provide is this:
-   
-   ![Kiipsaare Lighthouse on the Harilaid peninsula on the island of Saaremaa, Estonia, in the territory of Vilsandi National Park](images/lighthouse_estonia.jpg)
-   
-```
+In the [next lesson](courses-dita-authoring-tags-cheatsheet.md), you'll learn about a few DITA tags that are often used for marking up lists, tables, images, steps, and more.
 
-
-
-##  Summary
+##  Recap
 
 -  Every topic type has a finite set of tags that can be used in a very specific order.
 -  Only one tag is an essential tag in every topic type. This tag is the `<title>` tag that immediately follows the tag for the topic type.
 -  Some tags are exclusive to certain topic types; some tags can be used in more than one topic type.
 -  Tags can contain other tags but this is unidirectional; no parent tag can ever be contained by any tag that can become its child tag.
+-  Tags can have one or more attributes, where each attribute is like a key-value pair.
 
 <hr/>
 
--  [Learn to write in (and with) DITA](courses-dita-authoring.md)
-    -  [Information typing](courses-dita-authoring-infotype.md)
-    -  [Tags](courses-dita-authoring-tags-intro.md)
-    -  [Tagging considerations](courses-dita-authoring-tags-more.md)
-    -  Maps
-    -  Reuse
-    -  Single sourcing
+Lessons:
+
+```{include} courses-dita-authoring-toc.md
+```
    
 <hr/>
