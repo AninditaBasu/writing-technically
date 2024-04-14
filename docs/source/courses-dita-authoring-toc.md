@@ -1,4 +1,5 @@
 -  [Information typing](courses-dita-authoring-infotype.md)
 -  [Tagging](courses-dita-authoring-tags.md)
 -  [Tags cheatsheet](courses-dita-authoring-tags-cheatsheet.md)
+-  [Topics](courses-dita-authoring-topics.md)
 -  ... under construction ...

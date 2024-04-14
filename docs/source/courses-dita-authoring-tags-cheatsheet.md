@@ -252,12 +252,10 @@ The `<table>` tag supports more accessibility features than the other two.
 ## Code
 
 
-For a complete list, take a look at the [DITA language specification](https://docs.oasis-open.org/dita/v1.2/os/spec/language_reference.html#language_reference). Again, remember that you don't need to memorise these tags; just be aware, broadly, of what's available and where they can be used. In the [next lesson](xxx.md), you'll learn write some topics with these tags.
+For a complete list, take a look at the [DITA language specification](https://docs.oasis-open.org/dita/v1.2/os/spec/language_reference.html#language_reference). Again, remember that you don't need to memorise these tags; just be aware, broadly, of what's available and where they can be used. In the [next lesson](courses-dita-authoring-topics.md), you'll learn to write some topics with these tags.
 
 ##  Summary
-
-
-##  Exercise
+s
 
 
 
