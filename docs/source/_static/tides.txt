@@ -1,0 +1,10 @@
+# Tide tables
+
+The following table lists the two high tides of the day at 15.2993° N, 74.1240° E.
+
+| Date      | First high tide | Second high tide |
+| --------- | --------------- | ---------------- |
+| Fri Apr 1 |10:44 AM         | 10:28 PM         |
+| Sat Apr 2 |11:28 AM         | 10:59 PM         |
+| Sun Apr 3 |12:12 PM         | 11:32 PM         |
+| Mon Apr 4 |12:58 PM         | 12:08 AM         |

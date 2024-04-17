@@ -1,0 +1,6 @@
+-  container: Bottle
+   description: A glass or plastic container with a narrow neck, used for storing drinks or other liquids.
+-  container: Chest
+   description: A large strong box, typically made of wood and used for storage or transport.
+-  container: Cloud
+   description: A visible mass of condensed watery vapour floating in the atmosphere, typically high above the general level of the ground.

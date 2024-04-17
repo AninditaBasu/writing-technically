@@ -2,10 +2,10 @@
 myst:
   html_meta:
     "canonical": "https://writing-technically.readthedocs.io/en/latest/courses-dita-authoring-topics.html"
-    "description": "A lesson that explains common DITA tags and contains some exercises"
-    "title": "Learn about tagging in DITA"
-    "twitter:description": "A lesson that explains common DITA tags and contains some exercises"
-    "twitter:title": "Learn about tagging in DITA"
+    "description": "A lesson that shows how to create topics in DITA and contains some exercises"
+    "title": "Learn to create topics in DITA"
+    "twitter:description": "A lesson that shows how to create topics in DITA and contains some exercises"
+    "twitter:title": "Learn to create topics in DITA"
     "twitter:image": "https://writing-technically.readthedocs.io/en/latest/_static/wordcloud.jpg"
     "twitter:card": "summary_large_image"
     "twitter:creator": "@anindita_basu"
@@ -14,13 +14,13 @@ myst:
     "og:site_name": "Writing technically"
     "og:url": "https://writing-technically.readthedocs.io/en/latest/courses-dita-authoring-topics.html"
     "og:type": "article"
-    "og:title": "Learn about tagging in DITA"
-    "og:description": "A lesson that explains common DITA tags and contains some exercises"
+    "og:title": "Learn to create topics in DITA"
+    "og:description": "A lesson that shows how to create topics in DITA and contains some exercises"
     "og:image": "https://writing-technically.readthedocs.io/en/latest/_static/wordcloud.jpg"
     "author": "Anindita Basu"
 ---
 
-# Tagging in DITA
+# Topics
 
 <hr/>
 <p style="font-weight:bold;font-size:75%;color:orange">14 April 2024</p>
@@ -42,11 +42,18 @@ To do so more easily, download and install a DITA-aware authoring tool called [X
 
 ```
 
+##  Exercise
+
+Use XMLMind Editor to do the following assignments. Feel free to play around with tags.
+
+1.  Create a concept topic (**File** > **New** > **DITA** > **Concept**) and put the text of the following file into this topic: [messages_messengers.txt](_static/messages_messengers.txt). You'll also need this file: [messages_messengers.jpeg](_static/messages_messengers.jpeg).
+1.  Create a task topic  (**File** > **New** > **DITA** > **Task (Strict)**) and put the text of the following file into this topic: [sending_bottled_messages.txt](_static/sending_bottled_messages.txt).
+1.  Create a task topic  (**File** > **New** > **DITA** > **Reference**) and put the text of the following file into this topic: [tides.txt](_static/tides.txt).
+1.  Refer back to the [Information typing](courses-dita-authoring-infotype.md) lesson. Take the content you chunked in the exercise there, and transfer the content into topic types and proper tags.
+
+## What next?
+
 In the [next lesson](xxx.md), you'll learn about how to assemble discrete topics into a book.
-
-##  Recap
-
-
 
 <hr/>
 
