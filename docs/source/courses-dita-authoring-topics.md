@@ -50,8 +50,6 @@ In the [next lesson](xxx.md), you'll learn about how to assemble discrete topics
 
 <hr/>
 
-Lessons:
-
 ```{include} courses-dita-authoring-toc.md
 ```
    

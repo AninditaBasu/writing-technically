@@ -27,7 +27,12 @@ myst:
 
 DITA tags are semantic. The name of the tag is a clue to what that tag contains. For example, it's self-evident that the following tag (called `draft-comment`) is meant for holding review notes by an editor, SME, or writer.
 
-`<draft-comment>Where are these values defined? In config.xml or categories.xml?</draft-comment>`
+````{eval-rst}
+.. code-block:: xml
+
+    <draft-comment>Where are these values defined? 
+        In config.xml or categories.xml?</draft-comment>
+````
 
 In the [previous lesson](courses-dita-authoring-tags.md), you learnt that not all tags can be used in all topic types. Hold that thought while you become familiar with some tags. Oftentimes, DITA gives you a choice of more than one tag. In such cases, choose a tag based on the meaning inherent in the content that you're tagging.
 
@@ -35,7 +40,7 @@ In the [previous lesson](courses-dita-authoring-tags.md), you learnt that not al
 
    Remember to use tags for their purpose and not for how their content is rendered (formatted, displayed, shown) in the output (`.html`, `.pdf`, or other).
    
-   DITA does contain formatting tags such as `<b>` and `<i>`, but orgs didn't adopt DITA because of formatting.  Orgs adopt DITA, _inter alia_, because they want content to be marked up uniformly by everyone according to the meaning inherent in the content. No one looks at soe content and goes, "That means italics". The only meaning that an `<i>` tag can provide is this:
+   DITA does contain formatting tags such as `<b>` and `<i>`, but orgs didn't adopt DITA because of formatting.  Orgs adopt DITA, _inter alia_, because they want content to be marked up uniformly by everyone according to the meaning inherent in the content. No one looks at some content and goes, "That means italics". The only meaning that an `<i>` tag can provide is this:
    
    ![Kiipsaare Lighthouse on the Harilaid peninsula on the island of Saaremaa, Estonia, in the territory of Vilsandi National Park](images/lighthouse_estonia.jpg)
 
@@ -55,7 +60,7 @@ Unordered list
 
      .. tab:: DITA code
      
-        .. code:: none
+        .. code:: xml
         
             <ul>
               <li> </li>
@@ -70,7 +75,7 @@ Unordered list
 
      .. tab:: DITA-tagged sample text
      
-        .. code:: none
+        .. code:: xml
         
             <ul>
               <li>Gold</li>
@@ -81,8 +86,6 @@ Unordered list
      .. tab:: Similar tags
      
         ``<steps-unordered>``
-        
-        See Procedures_.
 
   ````
   A ``<ul>`` tag can be used in the ``<concept>`` and ``<reference>`` topic types. It can also be used in the ``<task>`` topic type but, for task topics, also look at the tags that are listed in [Procedures](#procedures). 
@@ -95,7 +98,7 @@ Ordered list
 
      .. tab:: DITA code
      
-        .. code:: none
+        .. code:: xml
 
             <ol>
               <li> </li>
@@ -110,7 +113,7 @@ Ordered list
 
      .. tab:: DITA-tagged sample text
      
-        .. code:: none
+        .. code:: xml
 
             <ol>
               <li>Gold</li>
@@ -121,8 +124,6 @@ Ordered list
      .. tab:: Similar tags
      
         ``<steps>``
-        
-        See Procedures_.
 
   ````
   A ``<ul>`` tag can be used in the ``<concept>`` and ``<reference>`` topic types. It can also be used in the ``<task>`` topic type but if you find yourself using an `<ol>` in a task topic, pause. And ask yourself if the semantics of the content need a tag that's listed in [Procedures](#procedures). 
@@ -135,12 +136,12 @@ Definition list
 
      .. tab:: DITA code
      
-        .. code:: none        
+        .. code:: xml        
             
             <dl>
               <dlentry>
-                <dt> </dt>
-                <dd> </dd>
+                <dt> </dt>  <!-- for the term -->
+                <dd> </dd>  <!-- for the definition -->
               </dlentry>
             </dl>
      
@@ -155,7 +156,7 @@ Definition list
 
      .. tab:: DITA-tagged sample text
      
-        .. code:: none
+        .. code:: xml
 
             <dl>
               <dlentry>
@@ -178,12 +179,12 @@ Definition list
         
         For a list of terms and definitions for the parameters on a user interface.
         
-        .. code:: none        
+        .. code:: xml        
         
             <parml>
               <plentry>
-                <pt> </pt>
-                <pd> </pd>
+                <pt> </pt>  <!-- for the parameter name -->
+                <pd> </pd>  <!-- for the parameter description -->
                </plentry>
             </parml>
     
@@ -199,7 +200,11 @@ More list tags
 
 DITA has one tag for images; it's called `<image>` and has the following syntax: 
 
-`<image href="remington.jpg"></image>`
+````{eval-rst}
+.. code-block:: xml
+
+    <image href="remington.jpg"></image>
+````
 
 In this example, the source of the image is a file called `filename.jpg`, which is specified through the `href` attribute.
 
@@ -210,17 +215,19 @@ The `<image>` tag can't contain anything except two optional child tags:
 
 If you need the image to have a title, you put it inside a `<fig>` tag, like so:
 
-```
-<fig>
-  <title>Tools of the Trade</title>
-  <image href="remington.jpg">
-    <alt>A picture of a Remington typewriter</alt>
-    <longdescref href="https://www.britannica.com/technology/Remington"
-              format="html"
-              scope="external"/>
-  </image>
-</fig>
-```
+````{eval-rst}
+.. code-block:: xml
+
+    <fig>
+      <title>Tools of the Trade</title>
+      <image href="remington.jpg">
+        <alt>A picture of a Remington typewriter</alt>
+        <longdescref href="https://www.britannica.com/technology/Remington"
+                  format="html"
+                  scope="external"/>
+      </image>
+    </fig>
+````
 
 DITA being XML, it's also entirely possible to write your images as code, by using the `<svg-container>` tag to define a scalable vector graphic (SVG). This course doesn't cover DITA SVGs.
 
@@ -231,17 +238,15 @@ DITA being XML, it's also entirely possible to write your images as code, by usi
 
 ## Tables
 
-Just like there's more than one tag for lists, so it is for DITA tables too. But in all probability, you'll be using the `<table>` tag the most often.
+Just like there's more than one tag for lists, similarly, there's more than one DITA tag for tables too.  Here's a comparison table of some of the table tags that can be used in concept, task, and reference topics.
 
-Here's a comparison table of the table tags that can be used in concept, task, and reference topics.
-
-|               | `<table>`                            | `<simpletable>` | `<choicetable>` |
-|---------------|--------------------------------------|------|------|
-| Header row    | Yes                                  | Yes | Yes |
-| Header column | Yes                                  | Yes | Yes |
-| Merge cells   | Yes                                  | No   | No   |
-| Title         | Yes                                  | No   | No   |
-| Where used    | `<concept>`, `<task>`, `<reference>` | `<concept>`, `<task>`, `<reference>` | `<task>` |
+|  | `<table>` | `<simpletable>` | `<choicetable>` |
+|--|-----------|------|------|
+| Header row | Yes  | Yes | Yes |
+| Header column | Yes  | Yes | Yes |
+| Merge cells | Yes  | No  | No   |
+| Title | Yes | No  | No  |
+| Where used | `<concept>`, `<task>`, `<reference>` | `<concept>`, `<task>`, `<reference>` | `<task>` |
 
 The `<table>` tag supports more accessibility features than the other two.
 
@@ -251,13 +256,9 @@ The `<table>` tag supports more accessibility features than the other two.
 
 ## Code
 
+##  Summary
 
 For a complete list, take a look at the [DITA language specification](https://docs.oasis-open.org/dita/v1.2/os/spec/language_reference.html#language_reference). Again, remember that you don't need to memorise these tags; just be aware, broadly, of what's available and where they can be used. In the [next lesson](courses-dita-authoring-topics.md), you'll learn to write some topics with these tags.
-
-##  Summary
-s
-
-
 
 <hr/>
 

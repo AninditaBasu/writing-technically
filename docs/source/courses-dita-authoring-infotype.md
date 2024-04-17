@@ -37,7 +37,7 @@ You don't write novels, stories, poems, or thrillers. What you write is not read
 DITA architecture has something called topic types, which you can think of as blocks that:
 
 -  Are built in a specific way, based on a standard model
--  Answer one - and only one - type of question
+-  Answer one &mdash; and only one &mdash; type of question
 
 DITA has several topic types; this course focusses on the following three topic types: concept, task, and reference.
 
@@ -77,18 +77,16 @@ The exercise at the end of this lesson is meant for providing some practise in c
 
 ##  Exercise
 
-Writing in DITA is about segragating content into topic types. To get some practise into this task, look at the following books and chunk its content into one or more blocks of _concept_, _task_, and _reference_. Use any text editor that you like.
+Writing in DITA is about segragating content into topic types. Look at the following books and chunk their content into one or more blocks of _concept_, _task_, and _reference_. For the exercise, use any text editor that you like.
 
 -  [Astrolabe Treatise](_static/chaucer_astrolabe_treatise.pdf)
 -  [Knitting, Crochet, and Netting](_static/knitting_crochet_netting.pdf)
 
-Or, if you'd rather do things from scratch, how about this: Imagine that you've been asked to produce documentation for a musical instrument called _shehnai_. Think of what all you'll write, and note down these section names or titles of the parts of your document (which, effectively, means that you're creating an outline or a table of contents for your document). Think of the questions that these parts are going to answer. Then, label these parts as _concept_, _task_, and _reference_. Again, use any text editor that you're comfortable with.
+If you'd rather do things from scratch, how about this: Imagine that you've been asked to produce documentation for a musical instrument called _shehnai_. Think of what all you'll write, and note down these section names or titles of the parts of your document (which, effectively, means that you're creating an outline or a table of contents for your document). Think of the questions that these parts are going to answer. Then, label these parts as _concept_, _task_, and _reference_. Again, use any text editor that you're comfortable with.
 
 ![Stamp from India showing the legendary Bismillah Khan](/images/bismillah_khan.jpg)
 
 <hr/>
-
-Lessons:
 
 ```{include} courses-dita-authoring-toc.md
 ```

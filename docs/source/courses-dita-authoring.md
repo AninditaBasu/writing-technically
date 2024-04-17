@@ -33,7 +33,9 @@ Just like architecture is the process of designing the shape of buildings, so is
 
 <hr/>
 
-This course contains the following lessons that show how to think and write in DITA.
+This course is served through lessons that take 15 - 20 minutes to read through, and a bit more time if they contain exercises, or if you pause to think and relate the lesson contents to your daily writing work.
+
+Please go through the lessons in the same order in which they're listed.
 
 ```{include} courses-dita-authoring-toc.md
 ```

@@ -31,13 +31,15 @@ DITA is a markup language, which means that all content in DITA is marked up (or
 
 ![DITA tag cloud](/images/dita_tags.png)
 
-For example, consider the following text:
-
-`The Adventures of Tom Sawyer`
+For example, consider the following text: `The Adventures of Tom Sawyer`
 
 This text can be marked up with a tag called `<title>` in the following manner:
 
-`<title>The Adventures of Tom Sawyer</title>`
+````{eval-rst}
+.. code-block:: xml
+
+    <title>The Adventures of Tom Sawyer</title>
+````
 
 DITA has a finite set of tags, and has strict rules about which tags can be used where. Every topic type has its own set of tags. Some tags can be used in all topic types; some can't and are specific to only certain topic types. For example, the tag called `<steps>` can be used only in a `<task>` topic type, while the tag called `<section>` can be used in both `<concept>` and `<reference>` topic types, but not in the `<task>` topic type.
 
@@ -48,15 +50,21 @@ Further, some tags can contain child tags and sometimes, the parent tag can hold
 
    .. tab:: Parent tag can hold content by itself
 
-      ``<note>The value in the <varname>outputdir</varname> field should include the complete file path.</note>``
+      .. code-block:: xml
+
+          <note>The value in the <varname>outputdir</varname> field 
+          should include the complete file path.</note>
       
       In this example, the ``<note>`` tag contains some text and also contains another tag called ``<varname>``.
 
    .. tab:: Parent tag can't
 
-      ``<step><cmd>In Windows Explorer, go to the Sphinx installation directory.</cmd></step>``
+      .. code-block:: xml
+
+          <step><cmd>In Windows Explorer, go to the Sphinx 
+          installation directory.</cmd></step>
       
-      In this example, the parent tag called ``<step>`` cannot hold anything by itself; it can hold only a child tag called ``<cmd>``.
+      In this example, the parent tag called ``<step>`` can't hold anything by itself; it can hold only a child tag called ``<cmd>`` that holds the text.
 
 ````
 
@@ -72,7 +80,7 @@ Therefore, all the following three examples are valid DITA files.
 
    .. tab:: Concept
 
-      .. code-block:: none
+      .. code-block:: xml
       
           <concept id = "some_ID">
           
@@ -82,7 +90,7 @@ Therefore, all the following three examples are valid DITA files.
 
    .. tab:: Task
 
-      .. code-block:: none
+      .. code-block:: xml
       
           <task id = "some_ID">
       
@@ -92,7 +100,7 @@ Therefore, all the following three examples are valid DITA files.
 
    .. tab:: Reference
 
-      .. code-block:: none
+      .. code-block:: xml
       
           <reference id = "some_ID">
       
@@ -113,7 +121,7 @@ Therefore, in the usual tech-writer life, a minimally valid DITA topic looks lik
 
    .. tab:: Concept
 
-      .. code-block:: none
+      .. code-block:: xml
       
           <concept id = "some_ID">
           
@@ -129,7 +137,7 @@ Therefore, in the usual tech-writer life, a minimally valid DITA topic looks lik
 
    .. tab:: Task
 
-      .. code-block:: none
+      .. code-block:: xml
       
           <task id = "some_ID">
       
@@ -145,7 +153,7 @@ Therefore, in the usual tech-writer life, a minimally valid DITA topic looks lik
 
    .. tab:: Reference
 
-      .. code-block:: none
+      .. code-block:: xml
       
           <reference id = "some_ID">
       
@@ -170,7 +178,7 @@ For the curious, however, here's an indicative list of tags that these topic typ
 
    .. tab:: Concept
 
-      .. code-block:: none
+      .. code-block:: xml
       
           <concept> *
 	          <title>  </title> *
@@ -189,7 +197,7 @@ For the curious, however, here's an indicative list of tags that these topic typ
 
    .. tab:: Task
 
-      .. code-block:: none
+      .. code-block:: xml
       
           <task> *
 	          <title>  </title> *
@@ -209,7 +217,7 @@ For the curious, however, here's an indicative list of tags that these topic typ
 
    .. tab:: Reference
 
-      .. code-block:: none
+      .. code-block:: xml
       
           <reference> *
 	          <title>  </title> *
@@ -227,11 +235,25 @@ For the curious, however, here's an indicative list of tags that these topic typ
 
 ````
 
-Every tag has a name, for example, `shortdesc` or `title`. Every tag also has several attributes that describe the tag. You can think of attributes as tag-metadata; they contain information about, and for, the tag. A tag can have more than one attribute.  Every attribute has a name (for example, `id`) and a value (for example, `pqr-768-ish`). Here's an example of a `link` tag that has an attribute named `href` (with the value being `pqr.dita`) and an attribute named `scope` (whose value is `local`).
+Every tag has a name, for example, `shortdesc` or `title`. Every tag also has several attributes that describe the tag. You can think of attributes as tag-metadata; they contain information about, and for, the tag. 
 
-`<link scope="local" href="pqr.dita">`
+```{admonition} ID required for topic type
 
-In the [next lesson](courses-dita-authoring-tags-cheatsheet.md), you'll learn about a few DITA tags that are often used for marking up lists, tables, images, steps, and more.
+   Every topic-type tag must always have an `id` attribute. 
+   
+   So, `<concept></concept>` will always fail a validation check; `<concept id="_some_value_"></concept>` will pass.
+
+```
+
+A tag can have more than one attribute.  Every attribute has a name  and a value. Here's an example of a `link` tag that has an attribute named `href` (with the value being `pqr.dita`) and an attribute named `scope` (whose value is `local`).
+
+````{eval-rst}
+.. code-block:: xml
+
+    <link scope="local" href="pqr.dita">
+````
+
+In the [next lesson](courses-dita-authoring-tags-cheatsheet.md), you'll learn about a few DITA tags that are often used for marking up lists, tables, images, steps, and such other things that are used by technical writers.
 
 ##  Recap
 
@@ -242,8 +264,6 @@ In the [next lesson](courses-dita-authoring-tags-cheatsheet.md), you'll learn ab
 -  Tags can have one or more attributes, where each attribute is like a key-value pair.
 
 <hr/>
-
-Lessons:
 
 ```{include} courses-dita-authoring-toc.md
 ```
