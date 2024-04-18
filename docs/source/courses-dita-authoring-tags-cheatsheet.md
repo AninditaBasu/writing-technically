@@ -254,10 +254,94 @@ The `<table>` tag supports more accessibility features than the other two.
 
 The most commonly used tag is `<steps>`, which cannot hold anything other than one or more `<step>` tags.
 
+The `<step>` tag can't hold anything in it either except for a single `<cmd>` tag. `cmd` is short for `command`. I believe the tag was named `cmd` because every sentence in a step is an imperative statement. Do this; do that.
+
+````{eval-rst}
+.. tabs::
+
+   .. tab:: DITA code
+     
+      .. code:: xml        
+            
+           <steps>
+             <step><cmd> </cmd></step>
+             <step><cmd> </cmd></step>
+           </steps>
+     
+   .. tab:: Sample text
+        
+      1.  Rise, brothers, rise.        
+      2.  Come, let us gather our nets from the shore.        
+      3.  Set our catamarans free.
+
+   .. tab:: DITA-tagged sample text
+     
+      .. code:: xml
+
+           <steps>
+            <step><cmd>Rise, brothers, rise. </cmd>
+            <step><cmd>Come, let us gather our nets from the shore.</cmd>
+            <step><cmd>Set our catamarans free.</cmd>
+           </steps>
+
+   .. tab:: Similar tags
+     
+      ``<ol>``, for ordered lists.
+      
+      Also, ``<steps-unordered>``, which can be used for procedures where the order of the steps is not important.
+        
+      Both ``<steps>`` and ``<steps-unordered>`` are valid tags for a task topic but a task topic can contain either ``<steps>`` or ``<steps-unordered>``, not both.       
+
+````
 
 ## Links
 
+For cross-references, through the `<link>` tag and its attributes:
+
+`href`
+: For the link destination, which can be a DITA file, a location within a file, or a URL.
+
+`scope`
+: For the degree of separation between the source and the target. Allowed values are `local`, `peer`, `external`, and `-dita-use-conref-target`.
+
+Links can have several more attributes. You'll see them by and by.
+
 ## Code
+
+For inline code, there's `<codeph>`; for code that spans more than one line, there's `<codeblock>`.
+
+````{eval-rst}
+.. tabs::
+
+   .. tab:: ``codeph``
+      
+      .. code:: xml 
+                             
+           <p>The command has the following syntax: <codeph>./make html</codeph>.<p>
+       
+      The command has the following syntax: ``./make html``.
+     
+   .. tab:: ``codeblock``
+        
+      .. code:: xml 
+                             
+           <p>The call can have more than one path parameter, 
+               where each parameter is enlosed in braces.</p>
+           <codeblock>
+           GET /mandal/{id}
+           GET /mandal/{id}/sukta/{sid}
+           GET /report.{format}
+           </codeblock>
+       
+      The call can have more than one path parameter, where each parameter is enlosed in braces.
+      
+      .. code-block:: none
+      
+          GET /mandal/{id}
+          GET /mandal/{id}/sukta/{sid}
+          GET /report.{format}
+
+````
 
 ## Sundry
 
@@ -271,6 +355,9 @@ The following tags are also often encountered in techdocs.
 
 `<note>`
 : A comment, explanation, cautionary advice, or warning.
+
+`<p>`
+: A paragraph.
 
 ##  Summary
 
