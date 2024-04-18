@@ -252,9 +252,25 @@ The `<table>` tag supports more accessibility features than the other two.
 
 ## Procedures
 
+The most commonly used tag is `<steps>`, which cannot hold anything other than one or more `<step>` tags.
+
+
 ## Links
 
 ## Code
+
+## Sundry
+
+The following tags are also often encountered in techdocs.
+
+`<shortdesc>`
+: One single paragraph that contains a description of the contents of the topic.
+
+`<section>`
+: A logical unit to group (or, organise) content. Very roughly analogous to the `div` tag in HTML.
+
+`<note>`
+: A comment, explanation, cautionary advice, or warning.
 
 ##  Summary
 

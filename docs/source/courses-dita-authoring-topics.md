@@ -29,17 +29,79 @@ In a [previous lesson](courses-dita-authoring-infotype.md), you learnt about arr
 
 After collecting your information and broadly separating them into concepts, tasks, and references, you'll now put them in DITA.
 
-To do so more easily, download and install a DITA-aware authoring tool called [XMLMind](https://www.xmlmind.com/xmleditor/download.shtml). The Personal Edition is free to use, with the caveat that XMLMind will randomly add an alphabet or two to some words here and there. This should be fine because the focus of these lessons isn't writing _per se_ but becoming familiar with writing in DITA.
+To do so more easily, download and install a DITA-aware authoring tool called [XMLMind](https://www.xmlmind.com/xmleditor/download.shtml). The Personal Edition is free to use, with the caveat that XMLMind will randomly add an alphabet or two to some words here and there. This should be fine because the focus of these lessons isn't on writing _per se_ but on becoming familiar with writing in DITA.
 
 ```{admonition} Focus is on DITA, not the tool
 
-   You might be tempted to become an expert user of XMLMind Editor. However, remember that there are several DITA writing tools available and, in a real-life techwriting scenario, the choice of the tool is made by people way above our paygrade. The intention of using XMLMind Editor for these lessons is:
+   Remember that there are several DITA writing tools available and, in an org, the choice of the tool is made by people way above our paygrade. There are standalone DITA writing tools such as XMLMind Editor, oXygen Editor, or FrameMaker, and then there are DITA CMS (content management system) writing tools such as Ixiasoft, Tridion, Vasont, or Paligo.
+   
+   For these lessons, XMLMind Editor is used because:
    
    -  It's free to use.
-   -  It can be used to generate HTML output, looking at which you'll get a feel of what the default DITA output looks like.
+   -  It generates HTML, looking at which you'll get a feel of what your "book" will look like on a documentation portal.
    
-   Retain your focus on the writing part, not the tool part.
+   Retain your focus on the writing, not the tool.
 
+```
+
+## Concept topics
+
+```
+  concept
+  ├── title
+  ├── shortdesc
+  ├── conbody
+      ├── block tags (paragraphs, lists, codes, tables, images, ...)
+      ├── section
+          ├── title
+          ├── block tags (paragraphs, lists, codes, tables, images, ...)
+      ├── related-links
+          ├── link
+```
+
+## Task topics
+
+```
+  task
+  ├── title
+  ├── shortdesc
+  ├── taskbody
+      ├── prereq
+          ├── block tags (paragraphs, lists, codes, tables, images, ...)
+      ├── context
+          ├── block tags (paragraphs, lists, codes, tables, images, ...)
+      ├── steps
+          ├── step
+              ├── substeps
+                  ├── substep
+                  ├── stepxmp
+                  ├── stepresult
+              ├── stepxmp
+              ├── stepresult
+      ├── result
+          ├── block tags (paragraphs, lists, codes, tables, images, ...)
+      ├── postreq
+          ├── block tags (paragraphs, lists, codes, tables, images, ...)
+      ├── related-links
+          ├── link
+```
+
+## Reference topics
+
+```
+  reference
+  ├── title
+  ├── shortdesc
+  ├── refbody
+      ├── block tags (paragraphs, lists, codes, tables, images, ...)
+      ├── section
+          ├── title
+          ├── block tags (paragraphs, lists, codes, tables, images, ...)
+      ├── example
+          ├── title
+          ├── block tags (paragraphs, lists, codes, tables, images, ...)
+      ├── related-links
+          ├── link
 ```
 
 ##  Exercise
@@ -49,11 +111,11 @@ Use XMLMind Editor to do the following assignments. Feel free to play around wit
 1.  Create a concept topic (**File** > **New** > **DITA** > **Concept**) and put the text of the following file into this topic: [messages_messengers.txt](_static/messages_messengers.txt). You'll also need this file: [messages_messengers.jpeg](_static/messages_messengers.jpeg).
 1.  Create a task topic  (**File** > **New** > **DITA** > **Task (Strict)**) and put the text of the following file into this topic: [sending_bottled_messages.txt](_static/sending_bottled_messages.txt).
 1.  Create a task topic  (**File** > **New** > **DITA** > **Reference**) and put the text of the following file into this topic: [tides.txt](_static/tides.txt).
-1.  Refer back to the [Information typing](courses-dita-authoring-infotype.md) lesson. Take the content you chunked in the exercise there, and transfer the content into topic types and proper tags.
+1.  Refer back to the [Information typing](courses-dita-authoring-infotype.md) lesson. Take the content you created for the exercise in that topic, and put it into topic types and tags.
 
 ## What next?
 
-In the [next lesson](xxx.md), you'll learn about how to assemble discrete topics into a book.
+In the next lesson, you'll learn about how to assemble discrete topics into a book.
 
 <hr/>
 
