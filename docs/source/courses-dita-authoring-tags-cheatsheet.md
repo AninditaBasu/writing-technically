@@ -36,17 +36,15 @@ DITA tags are semantic. The name of the tag is a clue to what that tag contains.
 
 In the [previous lesson](courses-dita-authoring-tags.md), you learnt that not all tags can be used in all topic types. Hold that thought while you become familiar with some tags. Oftentimes, DITA gives you a choice of more than one tag. In such cases, choose a tag based on the meaning inherent in the content that you're tagging.
 
-```{admonition} tagging != formatting
+```{admonition} DITA tagging != formatting
 
-   Remember to use tags for their purpose and not for how their content is rendered (formatted, displayed, shown) in the output (`.html`, `.pdf`, or other).
+   DITA taging is about the type of content (is it a note? is it a paragraph? is it a table?) rather than the appearance of the content (underline, italics, bold).
    
-   DITA does contain formatting tags such as `<b>` and `<i>`, but orgs didn't adopt DITA because of formatting.  Orgs adopt DITA, _inter alia_, because they want content to be marked up uniformly by everyone according to the meaning inherent in the content. No one looks at some content and goes, "That means italics". The only meaning that an `<i>` tag can provide is this:
+   DITA does contain formatting tags such as `<b>` and `<i>`, but orgs didn't adopt DITA because of formatting.  Orgs adopt DITA, _inter alia_, because they want content to be marked up uniformly by every writer. And, no writer can look at some content and go, "That is italics".
    
-   ![Kiipsaare Lighthouse on the Harilaid peninsula on the island of Saaremaa, Estonia, in the territory of Vilsandi National Park](images/lighthouse_estonia.jpg)
+   ![The leaning tower of Pisa in the 1890s, by Unknown author, https://coololdphotos.com/leaning-tower-of-pisa-in-the-1890s/, Public Domain, https://commons.wikimedia.org/w/index.php?curid=77102202](images/pisa_leaning_tower.jpg)
 
 ```
-
-The following sections describe some tags that'll find yourself using very often while writing in DITA.
 
 ## Lists
 
@@ -298,10 +296,10 @@ The `<step>` tag can't hold anything in it either except for a single `<cmd>` ta
 
 For cross-references, through the `<link>` tag and its attributes:
 
-`href`
+The `href` attribute
 : For the link destination, which can be a DITA file, a location within a file, or a URL.
 
-`scope`
+The `scope` attribute
 : For the degree of separation between the source and the target. Allowed values are `local`, `peer`, `external`, and `-dita-use-conref-target`.
 
 Links can have several more attributes. You'll see them by and by.
@@ -315,31 +313,40 @@ For inline code, there's `<codeph>`; for code that spans more than one line, the
 
    .. tab:: ``codeph``
       
+      DITA code:
+      
       .. code:: xml 
                              
-           <p>The command has the following syntax: <codeph>./make html</codeph>.<p>
+           <p>Run the following command from the terminal: <codeph>curl -d "@apitest.json" -X POST http://127.0.0.1:8000/data</codeph>.<p>
        
-      The command has the following syntax: ``./make html``.
+      Sample output:
+      
+      Run the following command from the terminal: ``curl -d "@apitest.json" -X POST http://127.0.0.1:8000/data``.
      
    .. tab:: ``codeblock``
         
+      DITA code:
+      
       .. code:: xml 
                              
            <p>The call can have more than one path parameter, 
                where each parameter is enlosed in braces.</p>
+               
            <codeblock>
            GET /mandal/{id}
            GET /mandal/{id}/sukta/{sid}
-           GET /report.{format}
+           GET /verses.{format}
            </codeblock>
        
+      Sample output:      
+      
       The call can have more than one path parameter, where each parameter is enlosed in braces.
       
       .. code-block:: none
       
           GET /mandal/{id}
           GET /mandal/{id}/sukta/{sid}
-          GET /report.{format}
+          GET /verses.{format}
 
 ````
 
