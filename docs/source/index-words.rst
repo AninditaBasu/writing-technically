@@ -51,6 +51,7 @@ A lexicon of words and phrases.
 
     words-content.md
     words-ephemeral.md
+    words-italics.md
     words-manager.md
     words-navigate.md
     words-swagger.md

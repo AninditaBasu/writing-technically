@@ -31,11 +31,11 @@ Just like human-spoken languages have their own vocabulary, so does DITA have it
 
 Just like architecture is the process of designing the shape of buildings, so is DITA the process of structuring information. When writing in DITA, you think about the kind of information you're serving to your readers and you so arrange the information that it meets very specific needs of your readers.
 
-<hr/>
-
 This course is served through lessons that take 15 - 20 minutes to read through, and a bit more time if they contain exercises, or if you pause to think and relate the lesson contents to your daily writing work.
 
-It's best to go through the lessons in the same order in which they're listed.
+It's best to go through the lessons in the order in which they're listed.
+
+<hr/>
 
 ```{include} courses-dita-authoring-toc.md
 ```

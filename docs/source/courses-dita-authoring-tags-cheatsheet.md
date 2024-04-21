@@ -38,11 +38,9 @@ In the [previous lesson](courses-dita-authoring-tags.md), you learnt that not al
 
 ```{admonition} DITA tagging != formatting
 
-   DITA taging is about the type of content (is it a note? is it a paragraph? is it a table?) rather than the appearance of the content (underline, italics, bold).
+   DITA taging is about the type of content ("This is a note." "This is a paragraph." "This is a table.") rather than the appearance of the content ("Underline this word." "Italicise this phrase." "Make this word look bold and strong.")
    
-   DITA does contain formatting tags such as `<b>` and `<i>`, but orgs didn't adopt DITA because of formatting.  Orgs adopt DITA, _inter alia_, because they want content to be marked up uniformly by every writer. And, no writer can look at some content and go, "That is italics".
-   
-   ![The leaning tower of Pisa in the 1890s, by Unknown author, https://coololdphotos.com/leaning-tower-of-pisa-in-the-1890s/, Public Domain, https://commons.wikimedia.org/w/index.php?curid=77102202](images/pisa_leaning_tower.jpg)
+   DITA does contain formatting tags such as `<b>` and `<i>`, but orgs didn't adopt DITA because of formatting.  Orgs adopt DITA, _inter alia_, because they want content to be marked up uniformly by all writers. And, no writer can look at some content and go, "This is an [italic](words-italics.md)".   
 
 ```
 
