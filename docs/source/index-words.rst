@@ -24,23 +24,22 @@ Words
 
    <hr/>
 
-A lexicon of words and phrases.
+The **Etymology** section.
+
+Contains a brief history of some words.
 
 .. raw:: html
 
    <hr/>
 
-.. epigraph::
+.. parsed-literal::
 
-   'Twas brillig, and the slithy toves
+    'Twas brillig, and the slithy toves
+    Did gyre and gimble in the wabe:
+    All mimsy were the borogoves,
+    And the mome raths outgrabe.
 
-   Did gyre and gimble in the wabe:
-
-   All mimsy were the borogoves,
-
-   And the mome raths outgrabe.
-
-   -- Lewis Carrol, *Jabberwocky*
+    -- Lewis Carrol, *Jabberwocky*
 
 .. raw:: html
 

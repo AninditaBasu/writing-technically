@@ -20,7 +20,7 @@ myst:
     "author": "Anindita Basu"
 ---
 
-# DITA tags cheatsheet
+# DITA lesson 3: Tags, cheatsheet
 
 <hr/>
 <p style="font-weight:bold;font-size:75%;color:orange">11 April 2024</p>

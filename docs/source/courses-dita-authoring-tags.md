@@ -20,7 +20,7 @@ myst:
     "author": "Anindita Basu"
 ---
 
-# Tagging in DITA
+# DITA lesson 2: Tags, introduction
 
 <hr/>
 <p style="font-weight:bold;font-size:75%;color:orange">9 April 2024</p>

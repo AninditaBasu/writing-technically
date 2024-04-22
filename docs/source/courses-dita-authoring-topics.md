@@ -20,7 +20,7 @@ myst:
     "author": "Anindita Basu"
 ---
 
-# Topics
+# DITA lesson 4: Topics
 
 <hr/>
 <p style="font-weight:bold;font-size:75%;color:orange">14 April 2024</p>

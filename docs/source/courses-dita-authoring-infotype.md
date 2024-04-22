@@ -20,7 +20,7 @@ myst:
     "author": "Anindita Basu"
 ---
 
-# Information typing in DITA
+# DITA lesson 1: Information typing
 
 <hr/>
 <p style="font-weight:bold;font-size:75%;color:orange">9 April 2024</p>

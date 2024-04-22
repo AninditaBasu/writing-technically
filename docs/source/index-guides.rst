@@ -24,19 +24,19 @@ Guides
 
    <hr/>
 
-A crock of recipes for self and other elves.
+The **How-To** section.
+
+Contains a crock of recipes for self and other elves.
 
 .. raw:: html
 
    <hr/>
 
-.. epigraph::
+.. parsed-literal::
 
-   I must go seek some dewdrops here,
-
-   And hang a pearl in every cowslip's ear.
-
-   -- William Shakespeare, *A Midsummer Night's Dream*
+    I must go seek some dewdrops here,
+    And hang a pearl in every cowslip's ear.
+    -- William Shakespeare, *A Midsummer Night's Dream*
 
 .. raw:: html
 

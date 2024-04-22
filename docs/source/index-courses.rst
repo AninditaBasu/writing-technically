@@ -24,29 +24,25 @@ Courses
 
    <hr/>
 
-A set of lessons.
+The **Techwriting courses** section.
+
+Contains a set of DIY lessons.
 
 .. raw:: html
 
    <hr/>
 
-.. epigraph::
+.. parsed-literal::
 
-   When I have fears that I may cease to be
+    When I have fears that I may cease to be
+    Before my pen has gleaned my teeming brain,
+    Before high-pilèd books, in charactery,
+    Hold like rich garners the full ripened grain;
+    ...
+    And think that I may never live to trace
+    Their shadows ...
 
-   Before my pen has gleaned my teeming brain,
-
-   Before high-pilèd books, in charactery,
-
-   Hold like rich garners the full ripened grain;
-
-   ...
-
-   And think that I may never live to trace
-
-   Their shadows ...
-
-   -- John Keats, *When I have fears that I may cease to be*
+    -- John Keats, *When I have fears that I may cease to be*
 
 .. raw:: html
 

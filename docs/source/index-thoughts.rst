@@ -24,23 +24,22 @@ Thoughts
 
    <hr/>
 
-A sharing of notes that will (hopefully) spark ruminations, discussions, and construction-destructions.
+The **Opinions** section.
+
+Contains a bunch of notes that will (hopefully) spark ruminations, discussions, and construction-destructions.
 
 .. raw:: html
 
    <hr/>
 
-.. epigraph::
+.. parsed-literal::
 
-   Be not afeard; the isle is full of noises,
+    Be not afeard; the isle is full of noises,
+    Sounds and sweet airs, that give delight and hurt not.
+    Sometimes a thousand twangling instruments
+    Will hum about mine ears.
 
-   Sounds and sweet airs, that give delight and hurt not.
-
-   Sometimes a thousand twangling instruments
-
-   Will hum about mine ears.
-
-   -- William Shakespeare, *The Tempest*
+    -- William Shakespeare, *The Tempest*
 
 .. raw:: html
 
