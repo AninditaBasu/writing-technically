@@ -59,6 +59,8 @@ To do so more easily, download and install a DITA-aware authoring tool called [X
           ├── link
 ```
 
+Here's an [example concept topic](https://www.ibm.com/docs/en/cics-pa/5.4.0?topic=started-what-is-cics-performance-analyzer-zos). Which tags were used to mark up the content, can you tell?
+
 ## Task topics
 
 ```
@@ -86,6 +88,12 @@ To do so more easily, download and install a DITA-aware authoring tool called [X
           ├── link
 ```
 
+If you're wondering why `<context>` should be placed after `<prereq>`, here's an explanation from someone who was on the team that created DITA.
+
+![Michael Priestley](./images/mike_priestley.png)
+
+Here's an [example task topic](https://www.ibm.com/docs/en/engineering-lifecycle-management-suite/lifecycle-management/7.0.3?topic=data-starting-websphere-liberty-server). Guess the tags?
+
 ## Reference topics
 
 ```
@@ -103,6 +111,8 @@ To do so more easily, download and install a DITA-aware authoring tool called [X
       ├── related-links
           ├── link
 ```
+
+Here's an [example reference topic](https://docs.rocketsoftware.com/bundle/mainstar_cr_ug/page/reference/ckm_uref_altergdg.html).
 
 ##  Exercise
 
