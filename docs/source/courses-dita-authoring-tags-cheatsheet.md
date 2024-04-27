@@ -69,7 +69,7 @@ Unordered list
         -  Frankincense        
         -  Myrrh
 
-     .. tab:: DITA-tagged sample text
+     .. tab:: Tagged sample text
      
         .. code:: xml
         
@@ -107,7 +107,7 @@ Ordered list
         2.  Frankincense        
         3.  Myrrh
 
-     .. tab:: DITA-tagged sample text
+     .. tab:: Tagged sample text
      
         .. code:: xml
 
@@ -150,7 +150,7 @@ Definition list
         Myrrh
             An aromatic resinous exudation from certain plants of the genus Myrrhis, especially M. odorata, a small spiny tree: used for incense, perfume, etc.
 
-     .. tab:: DITA-tagged sample text
+     .. tab:: Tagged sample text
      
         .. code:: xml
 
@@ -270,7 +270,7 @@ The `<step>` tag can't hold anything in it either except for a single `<cmd>` ta
       2.  Come, let us gather our nets from the shore.        
       3.  Set our catamarans free.
 
-   .. tab:: DITA-tagged sample text
+   .. tab:: Tagged sample text
      
       .. code:: xml
 
