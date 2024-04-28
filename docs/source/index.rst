@@ -78,6 +78,8 @@ The things that make this website run are these.
 
       Free plan of `Read The Docs <https://readthedocs.org/>`_
 
+All images on this website, unless specifically acknowledged, are taken from Wikipedia, WikiMedia, or other public sources, or belong to me myself.
+
 .. raw:: html
 
    <hr/>

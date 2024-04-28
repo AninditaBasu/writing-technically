@@ -40,6 +40,8 @@ To do so more easily, download and install a DITA-aware authoring tool called [X
    -  It's free to use.
    -  It generates HTML, looking at which you'll get a feel of what your "book" will look like on a documentation portal.
    
+   You can choose to use the free trial version of oXygen Editor as well, but be aware that the trial period gets over in a month, and you cannot start a fresh trial on the same computer.
+   
    Retain your focus on the writing, not the tool.
 
 ```

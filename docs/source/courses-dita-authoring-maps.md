@@ -38,7 +38,7 @@ A map is only a container, wrapper, jacket, or tray that holds topics.
 
  A map can contain other maps. A topic can exist in more than one map, and in more than one place within a map.
 
-To get a book out of your DITA topics, you place the topics in a map and then transform the map to an output such as HTML files or EclipseHelp. Whichever topic is present in the map gets included in the book. So, your file system or your repository can contain a thousand DITA files, but if only ten of them are in a map, only those ten files are included in whichever help (HTML pages, EclipseHelp, PDF file, whatever) you're building.
+To get a book out of your DITA topics, you place the topics in a map and then transform the map to an output such as HTML files or EclipseHelp. Whichever topic is present in the map gets included in the book. So, your file system or your repository can contain a thousand DITA files, but if only ten of them are in a map, only those ten files are included in whichever help you're building (HTML pages, EclipseHelp, PDF file, whatever).
 
 ![photo from https://www.foodnetwork.com/healthy/packages/healthy-every-week/healthy-tips/a-nutritionists-healthy-buffet-strategies](images/buffet.jpeg)
 
