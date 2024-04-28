@@ -31,9 +31,10 @@ In this lesson, you'll learn how to assemble topics into a set. In the DITA lang
 
 A map is only a container, wrapper, jacket, or tray that holds topics.
 
-|  |          |
-| ---- |-------|
-| ![khatta meetha kaddu and chaney ki daal ka paratha](images/ruchi_1.jpg) | ![besan missi, muskat pumpkin, and boondi raita](images/ruchi_2.jpg) |
+|    |          |
+|-----|-------|
+| ![khatta meetha kaddu and chaney ki daal ka paratha](images/ruchi_1.jpg) <br/><sup>https://twitter.com/RuShuVi/status/1717912810133352717</sup> | ![besan missi, muskat pumpkin, and boondi raita](images/ruchi_2.jpg)<br/><sup>https://twitter.com/RuShuVi/status/1459271182109270023 |
+| ![https://twitter.com/SudiptoDoc/status/1783705887900921913](images/sudipto_1.jpg)| ![https://twitter.com/SudiptoDoc/status/1783705887900921913](images/sudipto_2.jpg)|
 
  A map can contain other maps. A topic can exist in more than one map, and in more than one place within a map.
 
