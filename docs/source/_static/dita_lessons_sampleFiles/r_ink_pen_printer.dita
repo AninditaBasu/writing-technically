@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+"reference.dtd">
+<reference id="r_ink_pen_printer">
+  <title>Recommended inks</title>
+
+  <shortdesc>For a list of inks recommended by pen manufacturers and printer
+  manufacturers, read this topic.</shortdesc>
+
+  <refbody>
+    <section><title>Fountain pens</title><p>All brands of fountain pens can
+    use Chelpark inks that are widely available at stationery shops across the
+    country. Additionally, the following ink brands are recommended by the pen
+    manufacturers:</p><ul>
+        <li>Parker pen: Parker ink</li>
+
+        <li>Shaeffer pen: Shaeffer ink</li>
+      </ul></section>
+
+    <section><title>HP printer</title><p>The cartridge to be used in an HP
+    printer depends upon the model number of the printer, engraved next to the
+    Start button of the printer. Model R2D2 uses the Prefect series of print
+    cartridges while model Zaphod uses the Trillian series.</p></section>
+
+    <section><title>Epson printer</title><p>The following detachable pin-up
+    card contains an ink-printer matrix.</p><table>
+        <title>Epson ink chart</title>
+
+        <tgroup cols="6">
+          <thead>
+            <row>
+              <entry>Ink / Printer</entry>
+
+              <entry>Ink Retro</entry>
+
+              <entry>Ink Blues</entry>
+
+              <entry>Ink Jazz</entry>
+
+              <entry>Ink Pop</entry>
+
+              <entry>Ink Fusion</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry>Printer 1920</entry>
+
+              <entry>Yes</entry>
+
+              <entry/>
+
+              <entry>Yes</entry>
+
+              <entry/>
+
+              <entry/>
+            </row>
+
+            <row>
+              <entry>Printer 2020</entry>
+
+              <entry/>
+
+              <entry>Yes</entry>
+
+              <entry>Yes</entry>
+
+              <entry>Yes</entry>
+
+              <entry/>
+            </row>
+
+            <row>
+              <entry>Printer 2120</entry>
+
+              <entry>Yes</entry>
+
+              <entry>Yes</entry>
+
+              <entry/>
+
+              <entry>Yes</entry>
+
+              <entry>Yes</entry>
+            </row>
+
+            <row>
+              <entry>Printer 2220</entry>
+
+              <entry>Yes</entry>
+
+              <entry>Yes</entry>
+
+              <entry>Yes</entry>
+
+              <entry/>
+
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table></section>
+  </refbody>
+</reference>
