@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN"
+"task.dtd">
+<task id="t_printing">
+  <title>Printing</title>
+
+  <shortdesc>...</shortdesc>
+
+  <taskbody>
+    <prereq>...</prereq>
+
+    <context>...</context>
+
+    <steps-unordered>
+      <step>
+        <cmd>To print a picture on a photographic print paper, remove all paper from the input tray and then load the photographic print paper such that the vendor markings on the photo paper are facing up.</cmd>
+      </step>
+
+      <step>
+        <cmd>To print on an envelope, slide the paper guide towards your right till there is enough space to hold only an envelope, and then place the envelope face down, its short edge pointing towards the printer.</cmd>
+      </step>
+
+      <step>
+        <cmd>To print on a postcard, slide the paper guide towards your right till there is enough space to hold only a postcard, and then place the postcard such that the short edge points towards the printer and the side to be printed on is facing down.</cmd>
+      </step>
+
+    </steps-unordered>
+
+    <result>...</result>
+  </taskbody>
+
+  <related-links>
+    <link href="???">
+      <linktext/>
+    </link>
+  </related-links>
+</task>

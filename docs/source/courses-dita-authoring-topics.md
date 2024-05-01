@@ -127,7 +127,7 @@ Use XMLMind Editor to do the following assignments. Feel free to play around wit
 
 ## What next?
 
-In the next lesson, you'll learn about how to assemble discrete topics into a book.
+In the [next lesson](courses-dita-authoring-maps.md), you'll learn about how to assemble discrete topics into a book.
 
 <hr/>
 

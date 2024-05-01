@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN"
+"task.dtd">
+<task id="t_refill_printer_cartridge">
+  <title>Refilling a printer cartridge</title>
+
+  <shortdesc>When you print out dozens of pages, the ink in the printer cartridges is used up. To continue using your printer, keep refilling its cartridges with ink.</shortdesc>
+
+  <taskbody>
+    <prereq>Before buying ink, make sure the ink cartridge you want to buy is compatible with and recommended for the printer you use.</prereq>
+
+    <context>Refilling an ink cartridge is cheaper than replacing the cartridge.</context>
+
+    <steps>
+      <step>
+        <cmd>Remove the empty cartridge from your printer and place it on a flat, firm surface.</cmd>
+      </step>
+
+      <step>
+        <cmd>Locate the refilling holes at the top of the cartridge and pierce the holes with a sharp pencil.</cmd>
+      </step>
+
+      <step>
+        <cmd>Insert a toothpick inside the holes and identify the colour of the ink that each hole contains.</cmd>
+      </step>
+
+      <step>
+        <cmd>Place an upturned refill bottle of the correct colour into one of the holes and let the ink flow in. Make sure that there is no overflow. Repeat for the other two colours.</cmd>
+      </step>
+
+      <step>
+        <cmd>Seal the holes with tape.</cmd>
+      </step>
+
+      <step>
+        <cmd>Put the cartridge back in the printer.</cmd>
+      </step>
+
+      <step>
+        <cmd>Print a test page, preferably a photograph, to ensure the ink is flowing correctly through the cartridge on to the paper</cmd>
+      </step>
+    </steps>
+
+    <result>Your printer is now ready to render sharply coloured prints again.</result>
+  </taskbody>
+
+  <related-links>
+    <link href="???">
+      <linktext/>
+    </link>
+  </related-links>
+</task>

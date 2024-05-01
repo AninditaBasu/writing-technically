@@ -136,7 +136,7 @@ Use XMLMind Editor to do these assignments.
 
 ## What next?
 
-In the next lesson, you'll learn about creating links between topics without editing the topics themselves.
+In the next lesson, you'll learn about creating links between topics even without editing the topics themselves.
 
 <hr/>
 

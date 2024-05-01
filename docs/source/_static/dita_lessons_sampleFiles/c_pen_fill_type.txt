@@ -1,0 +1,19 @@
+Filling mechanism in pens
+
+The ink in pens can be replenished by three methods, depending on the type of the pen: lever, pneumatic, and eyedrop.
+
+A pen has two parts: a nib and an ink reservoir. When the ink supply in the reservoir is over, the nib can no longer leave any marks on paper.
+
+
+Lever
+
+A small metal strip, fixed on the pen body, is used as a lever. When lifted, the point of the metal strip is pressed against the ink reservoir inside the pen body. This action creates a sucking force by which ink is drawn inside the reservoir through the nib. See https://www.youtube.com/watch?v=ht7meVolUVo.
+
+Pneumatic
+
+See https://www.youtube.com/watch?v=23hAjBJUjww
+https://www.youtube.com/shorts/OltMBvjFYYQ
+
+Eyedropper
+
+https://www.youtube.com/shorts/zv72i_obAcQ

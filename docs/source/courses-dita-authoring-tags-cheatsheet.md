@@ -202,7 +202,7 @@ DITA has one tag for images; it's called `<image>` and has the following syntax:
     <image href="remington.jpg"></image>
 ````
 
-In this example, the source of the image is a file called `filename.jpg`, which is specified through the `href` attribute.
+In this example, the source of the image is a file called `remington.jpg`, which is specified through the `href` attribute.
 
 The `<image>` tag can't contain anything except two optional child tags:
 

@@ -4,26 +4,18 @@
 <task id="t_refill_fountain_pen">
   <title>Refilling a fountain pen</title>
 
-  <shortdesc>When you write with your pen, the ink inside it is used up. If
-  you want to continue writing with your pen, keep refilling the pen with
-  ink.</shortdesc>
+  <shortdesc>When you write with your pen, the ink inside it is used up. If you want to continue writing with your pen, keep refilling the pen with ink.</shortdesc>
 
   <taskbody>
     <prereq><ul>
-        <li>Determine whether your pen is a lever, a pneumatic, or an
-        eyedropper pen (see Types of Fountain Pens).</li>
+        <li>Determine whether your pen is a lever, a pneumatic, or an eyedropper pen (see Types of Fountain Pens).</li>
 
         <li>If your pen is an eyedropper pen, get an eyedropper.</li>
 
-        <li>Get a bottle of ink, a piece of soft cloth, and a sheet of an old
-        newspaper. For the recommended ink for your pen, see List of inks
-        recommended by pen brands.</li>
+        <li>Get a bottle of ink, a piece of soft cloth, and a sheet of an old newspaper. For the recommended ink for your pen, see List of inks recommended by pen brands.</li>
       </ul></prereq>
 
-    <context>If your pen has run out of ink or has run dry because of long
-    unuse, refill it with ink. You cannot write with your pen unless it has
-    ink inside. To refill your pen, you can take it to the authorised service
-    center. You can also do the task yourself.</context>
+    <context>If your pen has run out of ink or has run dry because of long unuse, refill it with ink. You cannot write with your pen unless it has ink inside. To refill your pen, you can take it to the authorised service center. You can also do the task yourself.</context>
 
     <steps>
       <step>
@@ -31,7 +23,7 @@
       </step>
 
       <step>
-        <cmd> Open the ink bottle and place it on the newspaper.</cmd>
+        <cmd>Open the ink bottle and place it on the newspaper.</cmd>
       </step>
 
       <step>
@@ -39,37 +31,19 @@
       </step>
 
       <step>
-        <cmd>Depending on the type of the pen, choose the appropriate
-        method:</cmd>
+        <cmd>Depending on the type of the pen, choose the appropriate method:</cmd>
 
         <choices>
-          <choice>For a lever pen, dip the pen inside the ink bottle such that
-          the nib is completely immersed. Be careful that the nib does not
-          scrape the bottom of bottle. Lift the lever at the side of the pen
-          body, wait for 5 seconds, and set it back. Repeat twice. Lift the
-          pen out of the ink bottle.</choice>
+          <choice>For a lever pen, dip the pen inside the ink bottle such that the nib is completely immersed. Be careful that the nib does not scrape the bottom of bottle. Lift the lever at the side of the pen body, wait for 5 seconds, and set it back. Repeat twice. Lift the pen out of the ink bottle.</choice>
 
-          <choice>For a pneumatic pen, unscrew and remove the outer casing of
-          the pen body. Locate the thin metal strip at a small cutout section
-          in the ink pouch casing. Press the strip, dip the pen inside the ink
-          bottle such that the nib is completely immersed, and release the
-          strip. Be careful that the nib does not scrape the bottom of bottle.
-          While the nib is still immersed in ink, press and release the strip
-          twice. Lift the pen out of the ink bottle.</choice>
+          <choice>For a pneumatic pen, unscrew and remove the outer casing of the pen body. Locate the thin metal strip at a small cutout section in the ink pouch casing. Press the strip, dip the pen inside the ink bottle such that the nib is completely immersed, and release the strip. Be careful that the nib does not scrape the bottom of bottle. While the nib is still immersed in ink, press and release the strip twice. Lift the pen out of the ink bottle.</choice>
 
-          <choice>For an eyedropper pen, hold the pen upright and unscrew it
-          so that you can separate the lower, body portion of the pen from the
-          upper, nib portion. Hold the pen body in one hand, and with the
-          other hand, fill up some ink in the eyedropper. Then, carefully
-          release the ink into the inside of the pen till the dropper is
-          empty. Repeat if you think the pen is not full yet. Then screw back
-          the nib portion to the pen body</choice>
+          <choice>For an eyedropper pen, hold the pen upright and unscrew it so that you can separate the lower, body portion of the pen from the upper, nib portion. Hold the pen body in one hand, and with the other hand, fill up some ink in the eyedropper. Then, carefully release the ink into the inside of the pen till the dropper is empty. Repeat if you think the pen is not full yet. Then, screw back the nib portion to the pen body.</choice>
         </choices>
       </step>
 
       <step>
-        <cmd>Wipe the nib with the soft cloth to remove all traces of
-        ink.</cmd>
+        <cmd>Wipe the nib with the soft cloth to remove all traces of ink.</cmd>
       </step>
 
       <step>
@@ -81,9 +55,7 @@
       </step>
     </steps>
 
-    <result>Your pen is now ready to be used for a fresh round of writing.
-    Take a sheet of paper and write. If you cannot make any markings on the
-    paper, wipe the nib with a piece of soft cloth and try again.</result>
+    <result>Your pen is now ready to be used for a fresh round of writing. Take a sheet of paper and write. If you cannot make any markings on the paper, wipe the nib with a piece of soft cloth and try again.</result>
   </taskbody>
 
   <related-links>
