@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN"
+"task.dtd">
+<task id="t_print_black_white">
+  <title>Making black-and-white prints</title>
+
+  <shortdesc>Transfer on to paper the photos that you've captured on your film
+  roll so that you can see the photos and show them around.</shortdesc>
+
+  <taskbody>
+    <prereq>Before you take prints of the photos on the film roll, turn the
+    film roll into a photographic negative. <ol>
+        <li>Prepare a tray each for the developer, the stop bath, and the
+        fixer.</li>
+
+        <li>Put the film roll into the developer tray and wait for the
+        designated time while agitating the liquid in the tray every 30
+        seconds.</li>
+
+        <li>When the designated time is over, put the roll into the stop bath
+        tray for the designated time while constantly agitating the liquid in
+        the tray.</li>
+
+        <li>When the designated time is over, put the roll in the fixer tray
+        and wait for the designated time while agitating the liquid in the
+        tray every 30 seconds</li>
+
+        <li>When the designated time is over, take out the roll (which has now
+        turned into a film negative) and wash it thoroughly in water.</li>
+      </ol></prereq>
+
+    <steps>
+      <step>
+        <cmd>Expose the photographic negative on to the enlarger.</cmd>
+
+        <substeps>
+          <substep>
+            <cmd>Put the negative in the enlarger tray such that the shiny
+            side is facing upwards and the tiny numbers are facing away from
+            you. </cmd>
+          </substep>
+
+          <substep>
+            <cmd>Turn the aperture knob of the enlarger till the image is
+            projected on to the baseboard. Then, adjust the brightness and
+            sharpness.</cmd>
+          </substep>
+
+          <substep>
+            <cmd>Expose the negative for 5 seconds.</cmd>
+          </substep>
+        </substeps>
+      </step>
+
+      <step>
+        <cmd>Develop the image.</cmd>
+      </step>
+
+      <step>
+        <cmd>Fix the image on to the black and white photo paper.</cmd>
+      </step>
+
+      <step>
+        <cmd>Wash the printed paper thoroughly with plain water so that no
+        trace of the chemicals remain.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

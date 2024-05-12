@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="c_fill_mechanism_pens">
+  <title>Filling mechanism in pens</title>
+
+  <shortdesc>The ink in pens can be replenished by three methods, depending on
+  the type of the pen: lever, pneumatic, and eyedrop.</shortdesc>
+
+  <conbody>
+    <p>A pen has two parts: a nib and an ink reservoir. When the ink supply in
+    the reservoir is over, the nib can no longer leave any marks on paper.
+    That's when you need to refill the ink. How to refill depends on the type
+    of the pen.</p>
+
+    <section><title>Lever</title><p>A small metal strip, fixed on the pen
+    body, is used as a lever. When lifted, the point of the metal strip is
+    pressed against the ink reservoir inside the pen body. This action creates
+    a sucking force by which ink is drawn inside the reservoir through the
+    nib.</p><object
+    data="https://www.youtube.com/embed/ht7meVolUVo?si=S-OEpZsGgiZuhKQ3"
+    height="315" width="560"/></section>
+
+    <section><title>Pneumatic</title><p>See
+    <filepath>https://www.youtube.com/watch?v=23hAjBJUjww</filepath> and <xref
+    href="???">https://www.youtube.com/shorts/OltMBvjFYYQ</xref>.</p></section>
+
+    <section><title>Eyedropper</title><p>See
+    <filepath>https://www.youtube.com/shorts/zv72i_obAcQ</filepath>.</p></section>
+  </conbody>
+</concept>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN"
+"map.dtd">
+<map>
+  <title>Of pens and printers</title>
+
+  <topichead navtitle="Create">
+    <topicref href="t_printing.dita"/>
+
+    <topicref href="t_print_iron_on_transfer.dita"/>
+  </topichead>
+
+  <topichead navtitle="Troubleshoot">
+    <topicref href="t_refill_fountain_pen.dita"/>
+
+    <topicref href="t_refill_printer_cartridge.dita"/>
+  </topichead>
+
+  <topicref href="c_fill_mechanism_pens.dita " toc="no"/>
+
+  <topicref href="r_ink_pen_printer.dita" toc="no"/>
+
+  <reltable>
+    <relrow>
+      <relcell>
+        <topicref href="t_refill_fountain_pen.dita"/>
+      </relcell>
+
+      <relcell>
+        <topicref href="c_fill_mechanism_pens.dita"/>
+      </relcell>
+    </relrow>
+
+    <relrow>
+      <relcell>
+        <topicref href="t_refill_fountain_pen.dita"/>
+      </relcell>
+
+      <relcell>
+        <topicref href="r_ink_pen_printer.dita"/>
+      </relcell>
+    </relrow>
+  </reltable>
+</map>
