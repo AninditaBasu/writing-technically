@@ -21,9 +21,9 @@
     data="https://www.youtube.com/embed/ht7meVolUVo?si=S-OEpZsGgiZuhKQ3"
     height="315" width="560"/></section>
 
-    <section><title>Pneumatic</title><p>See
-    <filepath>https://www.youtube.com/watch?v=23hAjBJUjww</filepath> and <xref
-    href="???">https://www.youtube.com/shorts/OltMBvjFYYQ</xref>.</p></section>
+    <section><title>Pneumatic</title><p>See <filepath>https://www.youtube.com/watch?v=23hAjBJUjww</filepath> and <xref
+          href="https://www.youtube.com/shorts/OltMBvjFYYQ" scope="external" format="html"
+          >https://www.youtube.com/shorts/OltMBvjFYYQ</xref>.</p></section>
 
     <section><title>Eyedropper</title><p>See
     <filepath>https://www.youtube.com/shorts/zv72i_obAcQ</filepath>.</p></section>
