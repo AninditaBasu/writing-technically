@@ -131,7 +131,7 @@ Use XMLMind Editor to do these assignments.
         
         ```
 1.  Generate an HTML output (**Map** > **Convert document** > **Convert to XHTML**). To see the generated output, open the file called `toc.html`.
-1.  Experiment with other output types. Do not focus on the formatting of the content. Rather, see what the several kinds of possible outputs are. You are looking at ~single-source publishing~ multi-channel publishing: the same set of files are being used to create more than one deliverable.
+1.  Experiment with other output types. Do not focus on the formatting of the content. Rather, see what the several kinds of possible outputs are. You are looking at ~~single-source publishing~~ multi-channel publishing: the same set of files are being used to create more than one deliverable.
 1.  Repeat the previous steps, but this time, create a bookmap instead of a simple map. Play around with the bookmap options and observe the differences, if any, between the generated output of a plain map and a bookmap.
 
 ## What next?
