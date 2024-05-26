@@ -27,7 +27,7 @@ myst:
 
 ```{admonition} italics
 
-   (_adjective_) Of or being a style of printing type patterned on a Renaissance script with the letters slanting to the right: This sentence is printed in italic type. [^ahd]
+   (_adjective_) Of or being a style of printing type patterned on a Renaissance script with the letters slanting to the right: _This sentence is printed in italic type._ [^ahd]
 ```
 
 [^ahd]: From the [American Heritage Dictionary](https://ahdictionary.com/word/search.html?q=Italics).

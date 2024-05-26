@@ -120,10 +120,10 @@ Here's an [example reference topic](https://docs.rocketsoftware.com/bundle/mains
 
 Use XMLMind Editor to do the following assignments. Feel free to play around with tags.
 
-1.  Create a concept topic (**File** > **New** > **DITA** > **Concept**) and put the text of the following file into this topic: [messages_messengers.txt](_static/messages_messengers.txt). You'll also need this file: [messages_messengers.jpeg](_static/messages_messengers.jpeg).
-1.  Create a task topic  (**File** > **New** > **DITA** > **Task (Strict)**) and put the text of the following file into this topic: [sending_bottled_messages.txt](_static/sending_bottled_messages.txt).
-1.  Create a task topic  (**File** > **New** > **DITA** > **Reference**) and put the text of the following file into this topic: [tides.txt](_static/tides.txt).
-1.  Refer back to the [Information typing](courses-dita-authoring-infotype.md) lesson. Take the content you created for the exercise in that topic, and put it into topic types and tags.
+-  Create a concept topic (**File** > **New** > **DITA** > **Concept**) and put the text of the following file into this topic: [messages_messengers.txt](_static/messages_messengers.txt). You'll also need this file: [messages_messengers.jpeg](_static/messages_messengers.jpeg).
+-  Create a task topic  (**File** > **New** > **DITA** > **Task (Strict)**) and put the text of the following file into this topic: [sending_bottled_messages.txt](_static/sending_bottled_messages.txt).
+-  Create a task topic  (**File** > **New** > **DITA** > **Reference**) and put the text of the following file into this topic: [tides.txt](_static/tides.txt).
+-  Refer back to the [Information typing](courses-dita-authoring-infotype.md) lesson. Take the content you created for the exercise in that topic, and put it into topic types and tags.
 
 ## What next?
 

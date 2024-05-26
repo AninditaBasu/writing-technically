@@ -38,9 +38,9 @@ In the [previous lesson](courses-dita-authoring-tags.md), you learnt that not al
 
 ```{admonition} DITA tagging != formatting
 
-   DITA taging is about the type of content ("This is a note." "This is a paragraph." "This is a table.") rather than the appearance of the content ("Underline this word." "Italicise this phrase." "Make this word look bold and strong.")
+   DITA taging is about the type of content ("_This is a note._" "_These sentences form a paragraph._" "_This information belongs to a table._") rather than the appearance of the content ("_Underline this word._" "_Italicise this phrase._" "_Make this word look bold and strong._")
    
-   DITA does contain formatting tags such as `<b>` and `<i>`, but orgs didn't adopt DITA because of formatting.  Orgs adopt DITA, _inter alia_, because they want content to be marked up uniformly by all writers. And, no writer can look at some content and go, "This is an [italic](words-italics.md)".   
+   DITA does contain formatting tags such as `<b>` and `<i>`, but orgs didn't adopt DITA because of formatting.  Orgs adopt DITA, _inter alia_, because they want content to be marked up uniformly by all writers. And, no writer can look at some content and go, "_This information is [italics](words-italics.md)_".   
 
 ```
 
@@ -125,7 +125,7 @@ Ordered list
   A ``<ul>`` tag can be used in the ``<concept>`` and ``<reference>`` topic types. It can also be used in the ``<task>`` topic type but if you find yourself using an `<ol>` in a task topic, pause. And ask yourself if the semantics of the content need a tag that's listed in [Procedures](#procedures). 
 
 Definition list
-: A list where each item contains two parts: a term and its definition. The parent tag for a definition list is `<dl>`, which cannot hold any content of its own except for one or more `<dlentry>` tags, where each `<dlentry>` tag holds a term (in a `<dt>`) and its definition (in a `<dd>`).
+: A list where each item contains two parts: a term and its definition. The parent tag for a definition list is `<dl>`, which cannot hold any content of its own except for one or more `<dlentry>` tags, where each `<dlentry>` tag holds a term (in a `<dt>`) and its definition (in a `<dd>`). One term (`<dt>`) can have more than one definition (`<dd>`), just like in a dictionary, a word entry can have more than one meaning. 
 
   ````{eval-rst}
   .. tabs::

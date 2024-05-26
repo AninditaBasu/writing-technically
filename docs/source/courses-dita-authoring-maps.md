@@ -84,6 +84,8 @@ As you can see, a bookmap is geared more towards a book kind of look-and-feel th
 
 You'd have noticed a tag called `<topicref>`. This is the tag that contains the cross-reference to a topic, through its `href` attribute.
 
+The order of the `<topicref>` tags in the map, and their nesting, determines the order and hierarchy of the topics in the output.
+
 ````{eval-rst}
  .. tabs::
 
@@ -108,9 +110,7 @@ You'd have noticed a tag called `<topicref>`. This is the tag that contains the 
 
 ````
 
-You'd have noticed that the map contained only a pointer to the filename (`<topicref href="install_checker.dita"></topicref>`). How does the output contain a human-readable title (`Install the quality scripts`)? That's because, generally, all DITA processors will pick the topic title and show it on the ToC. The `<topicref>` tag cannot contain any text within itself.
-
-The order of the `<topicref>` tags in the map, and their nesting, determines the order and hierarchy of the topics in the output.
+You'd have noticed that the map contained only a pointer to the filename (`<topicref href="install_checker.dita"></topicref>`). How does the output contain a human-readable title (`Install the quality scripts`)? That's because, generally, all DITA processors will pick the topic title and show it on the ToC. The `<topicref>` tag cannot contain any text within itself; it is only a reference or pointer to a file.
 
 ## Recap
 
@@ -130,9 +130,9 @@ Use XMLMind Editor to do these assignments.
         A right-click shows a context menu. Take it away from there.
         
         ```
-1.  Generate an HTML output (**Map** > **Convert document** > **Convert to XHTML**).
-1.  Experiment with other output types.
-1.  Repeat the previous steps, but this time, create a bookmap instead of a simple map. Play around.
+1.  Generate an HTML output (**Map** > **Convert document** > **Convert to XHTML**). To see the generated output, open the file called `toc.html`.
+1.  Experiment with other output types. Do not focus on the formatting of the content. Rather, see what the several kinds of possible outputs are. You are looking at ~single-source publishing~ multi-channel publishing: the same set of files are being used to create more than one deliverable.
+1.  Repeat the previous steps, but this time, create a bookmap instead of a simple map. Play around with the bookmap options and observe the differences, if any, between the generated output of a plain map and a bookmap.
 
 ## What next?
 

@@ -43,30 +43,6 @@ This text can be marked up with a tag called `<title>` in the following manner:
 
 DITA has a finite set of tags, and has strict rules about which tags can be used where. Every topic type has its own set of tags. Some tags can be used in all topic types; some can't and are specific to only certain topic types. For example, the tag called `<steps>` can be used only in a `<task>` topic type, while the tag called `<section>` can be used in both `<concept>` and `<reference>` topic types, but not in the `<task>` topic type.
 
-Further, some tags can contain child tags and sometimes, the parent tag can hold content independently (along with child tags and their content) but sometimes, the only thing that a parent tag can hold is child tags. Here's an example for each of these two cases.
-
-````{eval-rst}
-.. tabs::
-
-   .. tab:: Parent tag can hold content by itself
-
-      .. code-block:: xml
-
-          <note>The value in the <varname>outputdir</varname> field 
-          should include the complete file path.</note>
-      
-      In this example, the ``<note>`` tag contains some text and also contains another tag called ``<varname>``.
-
-   .. tab:: Parent tag can't
-
-      .. code-block:: xml
-
-          <step><cmd>In Windows Explorer, go to the Sphinx 
-          installation directory.</cmd></step>
-      
-      In this example, the parent tag called ``<step>`` can't hold anything by itself; it can hold only a child tag called ``<cmd>`` that holds the text.
-
-````
 
 Every DITA topic must have the following two tags as an essential requirement:
 
@@ -235,7 +211,34 @@ For the curious, however, here's an indicative list of tags that these topic typ
 
 ````
 
-Every tag has a name, for example, `shortdesc` or `title`. Every tag also has several attributes that describe the tag. You can think of attributes as tag-metadata; they contain information about, and for, the tag. 
+Every tag has a name, for example, `shortdesc` or `title`. 
+
+Some tags can contain child tags and sometimes, the parent tag can hold content independently (along with child tags and their content) but sometimes, the only thing that a parent tag can hold is child tags. Here's an example for each of these two cases.
+
+````{eval-rst}
+.. tabs::
+
+   .. tab:: Parent tag can hold content by itself
+
+      .. code-block:: xml
+
+          <note>The value in the <varname>outputdir</varname> field 
+          should include the complete file path.</note>
+      
+      In this example, the ``<note>`` tag contains some text and also contains another tag called ``<varname>``.
+
+   .. tab:: Parent tag can't
+
+      .. code-block:: xml
+
+          <step><cmd>In Windows Explorer, go to the Sphinx 
+          installation directory.</cmd></step>
+      
+      In this example, the parent tag called ``<step>`` can't hold anything by itself; it can hold only a child tag called ``<cmd>`` that holds the text.
+
+````
+
+Further, every tag also has several attributes that describe the tag. You can think of attributes as tag-metadata; they contain information about, and for, the tag. 
 
 ```{admonition} ID required for topic type
 
