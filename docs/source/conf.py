@@ -8,7 +8,7 @@
 
 project = 'Writing Technically'
 copyright = '2022 - 2024, Anindita Basu'
-author = 'Anindita Basu, using <a href="http://www.sphinx-doc.org/">Sphinx</a> with the <a href="https://sphinx-book-theme.readthedocs.io/en/stable/index.html">Book theme</a> of the <a href="https://ebp.jupyterbook.org/">Executable Book project</a>.'
+author = 'Anindita Basu, using <a href="http://www.sphinx-doc.org/">Sphinx</a> with the <a href="https://sphinx-book-theme.readthedocs.io/en/stable/index.html">Book theme</a> of the <a href="https://ebp.jupyterbook.org/">Executable Book project</a>.<p>This site uses no tracking code or site analytics. Neither does it use any cookies, as far as I know. Because it is on the free plan of the ReadTheDocs hosting service, you might see some ads on the sidebar at the left.</p>'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
