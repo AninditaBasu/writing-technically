@@ -6,6 +6,7 @@
 1.  [Topics](courses-dita-authoring-topics.md)
 1.  [Maps](courses-dita-authoring-maps.md)
 1.  [Topics, linking](courses-dita-authoring-topics-linking.md)
+1.  Topics, more ways to link
 1.  Reuse
 1.  Profiling
 

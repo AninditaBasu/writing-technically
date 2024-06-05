@@ -64,22 +64,40 @@ When two files are related to each other, such that someone reading one of the f
 
 Sometimes, you might not want to specify topic relationships through the `<related-links>` tag in a topic (you'll see the reasons in a subsequent lesson). How would you specify topic relationships in such cases? You do so by using a table in a map file. The table in a map file is a special kind of DITA table, and uses the `<reltable>` tag. For your writing purposes, though, think of this table like any other table with rows and columns, where every cell contains the name of a topic file, and all topics in a row are linked to each other.
 
-Typically, relationship tables have either 2 or 3 columns. In 3-column tables, typically, column 1 contains concept files, column 2 task files, and column 3 reference files, and all files in a row link to each other. If a cell contains more than one file, the default behavious is that the files in the same cell don't link to each other; they link only to the other files in the same row.
+Typically, relationship tables have either 2 or 3 columns.
 
-Consider the following example:
+-  In 2-column tables, typically, column 1 contains the source file and column 2 the target file. A link is created from files in column 1 to files in column 2 but not, typically, the other way around.
+-  In 3-column tables, typically, column 1 contains concept files, column 2 task files, and column 3 reference files, and all files in a row link to each other. 
 
-| Column 1            | Column 2                                                 |
+If a cell contains more than one file, the default behaviour is that the files in the same cell don't link to each other; they link only to the other files in the same row.
+
+Consider the following example of a 2-column table:
+
+| Source            | Target                                                 |
 |---------------------|----------------------------------------------------------|
 | `install.dita`      | `config_params_macos.dita`, `config_params_windows.dita` |
 | `enable_admin.dita` | `user_permissions.dita`                                  |
 
 In the output, the related links are created as follows (even though these links are not specified inside the topics themselves):
 
--  `install.dita` contains links to two files: `config_params_macos.dita` and `config_params_windows.dita`
--  `config_params_macos.dita` contains a link to `install.dita`
--  `config_params_windows.dita` contains a link to `install.dita`
--  `enable_admin.dita` contains a link to `user_permissions.dita`
--  `user_permissions.dita` contains a link to `enable_admin.dita`
+-  `install.dita` contains links to two files: `config_params_macos.dita` and `config_params_windows.dita`.
+-  `user_permissions.dita` contains a link to `enable_admin.dita`.
+
+Consider the following example of a 3-column table:
+
+| Concept | Task | Reference                                                |
+|---------|-----------------------|----------------------------------------------------------|
+| `architecture.dita` | `install.dita` | `config_params_macos.dita`, `config_params_windows.dita` |
+| |`enable_admin.dita` | `user_permissions.dita`                                  |
+
+In the output, the following related links are created:
+
+-  From row 1:
+    -  `architecture.dita` contains links to three files: `install.dita`, `config_params_macos.dita`, and `config_params_windows.dita`.
+    -  `install.dita` contains links to three files: `architecture.dita`, `config_params_macos.dita`, and `config_params_windows.dita`.
+	-  `config_params_macos.dita` contains links to two files: `install.dita` and `architecture.dita`.
+	-  `config_params_windows.dita` contains links to two files: `install.dita` and `architecture.dita`.
+-  From row 2, `enable_admin.dita` and `user_permissions.dita` contains links to each other.
 
 Each cell in a `<reltable>` tag contains `<topicref>` elements, like this:
 
@@ -107,7 +125,9 @@ Again, remember that you don't need to memorise all of these tags; your authorin
 -  In topics:
     - `<xref>` is for inline links; the title of the linked topic is automatically treated as the link text.
     -  `<related-links>` is for specifying a linked list at the end of the file.
--  In maps, `<reltable>` is used for specifying topic links. All files in a row link to each other but files in the same cell in that row don't link to each other.
+-  In maps, `<reltable>` is used for specifying topic links.
+-  In 2-column reltables, all files in the first column contain links to files in the second column,  but files in the same cell in a row don't link to each other.
+-  In 3-column reltables, all files in a row link to each other, but files in the same cell in a row don't link to each other.
 
 
 ##  Exercise
@@ -123,10 +143,6 @@ Use XMLMind Editor to do the following assignments. Feel free to play around wit
 1.  Generate an output and see that the links in the `Related information` section of the `Refilling a fountain pen` topic are no longer broken.
 1.  Open the map file that you created in the previous lesson, and insert a relationship table. Then, generate an output and see the results.
 1.  Open any of the topics that you created in the previous lessons, and insert a `<related-links>` tag in it. Return to the map file, generate an output, and see the results.
-
-## What next?
-
-The next few lessons show you how to single-source.
 
 <hr/>
 
