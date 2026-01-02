@@ -49,7 +49,7 @@ For the times when none of the available themes appeal to you, and you craft you
    remote_theme: yourGitHubName/yourRepoName
    plugins:
      - jekyll-remote-theme
-```
+   ```
 4. Check in the files. You're done.
    
 <hr/>
