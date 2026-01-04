@@ -23,7 +23,7 @@ myst:
 # Displaying Mermaid diagrams on GitHub Pages
 
 <hr/>
-<p style="font-weight:bold;font-size:75%;color:orange">04 January 2025</p>
+<p style="font-weight:bold;font-size:75%;color:orange">04 January 2026</p>
 
 Mermaid charts show up fine in GitHub README files and other Markdown files when viewed inside their GitHub repos. The charts don't show up when the same files are published to GitHub Pages sites.
 

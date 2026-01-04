@@ -47,7 +47,7 @@ Contains a crock of recipes for self and other elves.
 
     guides-setting-up-a-sphinx-site.md
     guides-remote-ghpages-theme.md
-	guides-mermaid-in-ghpages.md
+    guides-mermaid-in-ghpages.md
     guides-adding-social-cards-to-a-sphinx-site.md
     guides-canonical-urls-in-a-sphinx-site.md
 

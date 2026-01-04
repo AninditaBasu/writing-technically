@@ -23,7 +23,7 @@ myst:
 # Creating a theme for GitHub Pages
 
 <hr/>
-<p style="font-weight:bold;font-size:75%;color:orange">02 January 2025</p>
+<p style="font-weight:bold;font-size:75%;color:orange">02 January 2026</p>
 
 For the times when none of the available themes appeal to you, and you craft your own. And then think about putting it out to the world as a shareable `remote-theme` because, who knows, someone else out there might also be unhappy with the selection on offer, see yours, like it, and use it.
 
